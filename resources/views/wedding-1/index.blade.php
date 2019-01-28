@@ -33,52 +33,52 @@
                                 <nav class="main-nav icons_21">
                                     <ul>
                                         <li>
-                                            <a href="{{route('index.wedding-1')}}" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('index')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/home.png')}}" alt="" title="" />
                                                 <span class="leftmenu_name">Home</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/couple.htm" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('couple')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/rings.png')}}" alt="" title="Bridegroom" />
-                                                <span class="leftmenu_name">Bridegroom</span>
+                                                <span class="leftmenu_name">Mempelai</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/event.htm" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('acara')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/blog.png')}}" alt="" title="Event" />
-                                                <span class="leftmenu_name">Event</span>
+                                                <span class="leftmenu_name">Acara</span>
                                             </a>
                                         </li>  
                                         <li>
-                                            <a href="putriandre7/gallery.htm" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('photos')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/photos.png')}}" alt="" title="Photo" />
-                                                <span class="leftmenu_name">Gallery</span>
+                                                <span class="leftmenu_name">Galeri</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/video.htm" class="close-panel" data-view=".view-main">
-                                                <img src="{{asset('wedding-1/images/icons/gold/video.png')}}" alt="" title="Video" />
-                                                <span class="leftmenu_name">Video</span>
+                                            <a onclick="pindahMenu('wish')" class="close-panel" data-view=".view-main">
+                                                <img src="{{asset('wedding-1/images/icons/gold/message.png')}}" alt="" title="Wishes" />
+                                                <span class="leftmenu_name">Ucapan</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/map.htm" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('map')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/map.png')}}" alt="" title="Map" />
-                                                <span class="leftmenu_name">Map</span>
+                                                <span class="leftmenu_name">Lokasi</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/quotes.htm" class="close-panel" data-view=".view-main">
+                                            <a onclick="pindahMenu('quotes')" class="close-panel" data-view=".view-main">
                                                 <img src="{{asset('wedding-1/images/icons/gold/quotes.png')}}" alt="" title="Quotes" />
                                                 <span class="leftmenu_name">Quotes</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="putriandre7/says.htm" class="close-panel" data-view=".view-main">
-                                                <img src="{{asset('wedding-1/images/icons/gold/message.png')}}" alt="" title="Wishes" />
-                                                <span class="leftmenu_name">Wishes</span>
-                                            </a>
+                                           {{-- <a onclick="pindahMenu('video')" class="close-panel" data-view=".view-main">
+                                                <img src="{{asset('wedding-1/images/icons/gold/video.png')}}" alt="" title="Video" />
+                                                <span class="leftmenu_name">Video</span>
+                                            </a> --}}
                                         </li>              
       			                   </ul>
                                 </nav>
@@ -88,9 +88,31 @@
 	           </div>  
         </div>
 
-        <div class="views">
-            @include('wedding-1.home')
-        </div>
+        <div class="views" >
+            <div class="view view-main">
+                <div class="pages" id="content">
+                    @include('wedding-1.home')
+                    @include('wedding-1.wish')
+                    @include('wedding-1.quotes')
+                    @include('wedding-1.event')
+                    @include('wedding-1.map')
+                    @include('wedding-1.couple')
+                </div>
+                <div class="music-box">
+                    <button class="music-box-toggle-btn">
+                        <audio id='song' loop>
+                            <source src="{{asset('music/lagu.mp3')}}">
+                        </audio>  
+                        <button type="button" class="music" id="mute-sound" >
+                            <i class="fa fa-music"></i>
+                        </button>
+                        <button type="button" class="music" id="unmute-sound" >
+                            <i class="fa fa-microphone-slash"></i>
+                        </button> 
+                    </button>
+                </div>
+            </div>
+        </div>  
             <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script>
             <script>
                 document.getElementById('mute-sound').style.display = 'none';
@@ -116,6 +138,18 @@
             <script type="text/javascript" src="{{asset('wedding-1/js/email.js')}}"></script>
             <script type="text/javascript" src="{{asset('wedding-1/js/audio.min.js')}}"></script>
             <script type="text/javascript" src="{{asset('wedding-1/js/my-app.js')}}"></script>
+            <script>
+                function pindahMenu(tujuan) 
+                {
+                    var active = $('#content').find('.active').attr('id');
+                    // console.log(active);
+                    var tujuan = tujuan;
+                    $("#"+active).removeClass('active'); 
+                    $("#"+active).addClass('hidden');
+                    $("#"+tujuan).removeClass('hidden');
+                    $("#"+tujuan).addClass('active');
+                }
+            </script>
             <script>
                 function view_more() 
                 {       
@@ -145,7 +179,7 @@
             <script>
                 function makeTimer() 
                 {
-                    var endTime = new Date("December 27, 2018 09:00:00 PDT");     
+                    var endTime = new Date("12 December 2019 16:10:00");     
                     var endTime = (Date.parse(endTime)) / 1000;
                     var now = new Date();
                     var now = (Date.parse(now) / 1000);

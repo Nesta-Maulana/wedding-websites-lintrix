@@ -1,60 +1,43 @@
-<div class="view view-main">
-    <div class="pages" >
-        <div data-page="index" class="page no-toolbar no-navbar">
-            <div class="page-content" >
-                <div id="pages_maincontent">
-                    <div id="front_title" class="page_single layout_fullwidth_padding" >
-                        <img src="{{asset('wedding-1/images/front_title/7.png')}}" alt="" width="100%" >
-                    </div>
-                    <div id="home_content" class="page_single layout_fullwidth_padding">  
-                        <span>
-                            <span id="home_text1">
-                                TOGETHER <br/> WITH OUR FAMILIES            
-                            </span> 
-                            
-                            <br/><br/>
-                            
-                            <span class="couple_name" width="70%" >
-                                <strong>Senja </strong><br/> 
-                                <span>and</span> <br/> 
-                                <strong>Fajar </strong>
-                            </span> 
-                            
-                            <br/><br/>
-                            
-                            <span id="home_text2">
-                                invite you to celebrate            
-                            </span> 
+<div data-page="index" class="page no-toolbar no-navbar active" id="index">
+    <div class="page-content" >
+        <div id="pages_maincontent">
+            <div id="front_title" class="page_single layout_fullwidth_padding" >
+                <img src="{{asset('wedding-1/images/front_title/7.png')}}" alt="" width="100%" >
+            </div>
+            <div id="home_content" class="page_single layout_fullwidth_padding">  
+                <span>
+                    <span id="home_text1"> 
+                        TOGETHER <br/> WITH OUR FAMILIES            
+                    </span> 
+                    
+                    <br/><br/>
+                    
+                    <span class="couple_name" width="70%" >
+                        <strong>Senja </strong><br/> 
+                        <span>and</span> <br/> 
+                        <strong>Fajar </strong>
+                    </span> 
+                    
+                    <br/><br/>
+                    
+                    <span id="home_text2">
+                        invite you to celebrate            
+                    </span> 
 
-                            <span id="party_date2">
-                              12 | December | 2019
-                            </span> 
-          
-                            <span id="party_loc" style="">
-                                Gedung Puri Begawan<br/>
-                                Bogor Timur,  Bogor
-                            </span>
-                        </span>
-                    </div>
-                    <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;padding-bottom: 32px;">
-                        <img src="{{asset('wedding-1/images/headers/bottom/7.png')}}" alt="" width="100%" >
-                    </div>
-                </div>
-                @include('wedding-1.bottom')  
+                    <span id="party_date2">
+                      12 | December | 2019
+                    </span> 
+  
+                    <span id="party_loc" style="">
+                        Gedung Puri Begawan<br/>
+                        Bogor Timur,  Bogor
+                    </span>
+                </span>
+            </div>
+            <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;padding-bottom: 32px;">
+                <img src="{{asset('wedding-1/images/headers/bottom/7.png')}}" alt="" width="100%" >
             </div>
         </div>
-    </div>
-    <div class="music-box">
-        <button class="music-box-toggle-btn">
-            <audio id='song' loop>
-                <source src="{{asset('music/lagu.mp3')}}">
-            </audio>  
-            <button type="button" class="music" id="mute-sound" >
-                <i class="fa fa-music"></i>
-            </button>
-            <button type="button" class="music" id="unmute-sound" >
-                <i class="fa fa-microphone-slash"></i>
-            </button> 
-        </button>
+        @include('wedding-1.bottom')  
     </div>
 </div>

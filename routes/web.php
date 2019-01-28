@@ -19,3 +19,9 @@ Route::get('/wedding', function ()
 {
     return view('wedding-1.index');
 })->name('index.wedding-1');
+/*
+Route::get('/wedding/wish', function () 
+{
+    return view('wedding-1.wish');
+})->name('wish.wedding-1');
+*/

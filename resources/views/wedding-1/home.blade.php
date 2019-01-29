@@ -1,4 +1,4 @@
-<div data-page="index" class="page no-toolbar no-navbar active" id="index">
+<div data-page="index" class="page no-toolbar no-navbar animated flip active" id="index">
     <div class="page-content" >
         <div id="pages_maincontent">
             <div id="front_title" class="page_single layout_fullwidth_padding" >

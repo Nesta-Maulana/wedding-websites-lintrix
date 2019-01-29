@@ -13,12 +13,13 @@
     	<link href="" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 		<title>Fajar - Senja pandawa.tech</title>
 		<link rel="stylesheet" href="{{asset('wedding-1/css/framework7.css')}}">
-		<link rel="stylesheet" href="{{asset('wedding-1/css/style.css')}}">
-		<link href="{{asset('wedding-1/css/font-awesome.min.css')}}" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/swipebox.css')}}" />
+        <link rel="stylesheet" href="{{asset('wedding-1/css/style.css')}}">
+        <link href="{{asset('wedding-1/css/font-awesome.min.css')}}" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/swipebox.css')}}" />
         <link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/animations.css')}}" />
-		<link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/custom.css')}}" />
+        <link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/custom.css')}}" />
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 		<!-- <link href="fonts.googleapis.com/css.css" rel="stylesheet"> -->
         
     </head>
@@ -97,6 +98,7 @@
                     @include('wedding-1.event')
                     @include('wedding-1.map')
                     @include('wedding-1.couple')
+                    @include('wedding-1.gallery')
                 </div>
                 <div class="music-box">
                     <button class="music-box-toggle-btn">
@@ -144,10 +146,10 @@
                     var active = $('#content').find('.active').attr('id');
                     // console.log(active);
                     var tujuan = tujuan;
-                    $("#"+active).removeClass('active'); 
+                    $("#"+active).removeClass('animated flip active'); 
                     $("#"+active).addClass('hidden');
                     $("#"+tujuan).removeClass('hidden');
-                    $("#"+tujuan).addClass('active');
+                    $("#"+tujuan).addClass('animated flip active');
                 }
             </script>
             <script>
@@ -197,6 +199,20 @@
                     $("#seconds").html(seconds + "<span>Seconds</span>");   
                 }
                 setInterval(function() { makeTimer(); }, 1000);
+            </script>
+            <script type="text/javascript">
+                function popup(image) 
+                {
+                    // console.log(image)
+                    // console.log($(this).attr("src"))
+                    $(".show").fadeIn();
+                    $(".img-show img").attr("src", image);
+                }
+
+                $("span, .overlay").click(function () {
+                    $(".show").fadeOut();
+                });
+                
             </script>
         </body>
 </html>

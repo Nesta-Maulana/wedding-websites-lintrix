@@ -620,7 +620,7 @@ color: #a1642a;
 }
 
 #mainmenu{
-background-image: url(http://wd.halalindong.com/assets/templates/mobile/images/background/textures/5.png);
+background-image: url(../images/5.png);
 }
 
 .bottom_menu_open{
@@ -630,3 +630,104 @@ background-color:#d3d6cb;
 .toolbar-icon a img {
 margin-top: 10%;
 }
+#sub_content
+{
+width: 90%;
+margin: 0 auto;
+padding: 0px 10px; 
+margin-top: -50px !important;
+margin-bottom: -5px !important; 
+}
+
+#sub_content>h2{
+color:#31432d;
+font-family: greatvibes;
+font-size: 30px;
+margin-top: 0px;
+text-align: center;
+border-bottom: none;
+}
+
+#photos{
+margin-top: 0px;
+}
+
+#photos>ul{
+margin-bottom: -10px;
+}
+
+#photoslist{
+margin-bottom: 35px;
+}
+
+.photos_tabs {
+margin-top: 0;
+}
+  .icon-title{
+    color: #a1642a;
+    font-size: 12px;
+  }
+
+  .icon-title-more{
+    color: #a1642a;
+  }
+
+  #mainmenu{
+    background-image: url(../images/5.png);
+  }
+
+  .bottom_menu_open{
+    background-color:#d3d6cb;
+  }
+
+  .toolbar-icon a img {
+    margin-top: 10%;
+  }
+
+  .popup{
+    width: 900px;
+    margin: auto;
+    text-align: center
+}
+.popup img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer
+}
+.show{
+    z-index: 999;
+    display: none;
+}
+.show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.show .img-show{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+.img-show img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*End style*/

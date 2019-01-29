@@ -15,10 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/wedding', function () 
-{
-    return view('wedding-1.index');
-})->name('index.wedding-1');
+Route::get('/wedding','Wedding\WeddingController@index')->name('index.wedding-1');
+Route::post('/wedding/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-1');
+
 /*
 Route::get('/wedding/wish', function () 
 {

@@ -144,7 +144,6 @@
                 function pindahMenu(tujuan) 
                 {
                     var active = $('#content').find('.active').attr('id');
-                    // console.log(active);
                     var tujuan = tujuan;
                     $("#"+active).removeClass('animated flip active'); 
                     $("#"+active).addClass('hidden');
@@ -152,31 +151,29 @@
                     $("#"+tujuan).addClass('animated flip active');
                 }
             </script>
-            <script>
-                function view_more() 
-                {       
-                    var start=document.getElementById("comment_start").value;
-                    var comment_start = parseInt(start) + 5;
-                    document.getElementById("comment_start").value = comment_start;
+<!--             <script>
+    function view_more() 
+    {       
+        var start=document.getElementById("comment_start").value;
+        var comment_start = parseInt(start) + 5;
+        document.getElementById("comment_start").value = comment_start;
 
-                    var url = 'localhost:8000/wedding/says_more/'+ comment_start ;
-                    //alert(url);
-                    $('#comments').append($('<div>').load(url));
-                    return false;
-                }
-            </script>
-            <script>
-                function rsvp_more() 
-                {     
-                    var start=document.getElementById("comment_start").value;
-                    var comment_start = parseInt(start) + 5;
-                    document.getElementById("comment_start").value = comment_start;
-                    var url = 'localhost:8000/wedding/rsvp_more/'+ comment_start ;
-                    //alert(url);
-                    $('#comments').append($('<div>').load(url));
-                    return false;
-                }
-            </script>
+        var url = 'localhost:8000/wedding/says_more/'+ comment_start ;
+        //alert(url);
+        $('#comments').append($('<div>').load(url));
+        return false;
+    }
+    function rsvp_more() 
+    {     
+        var start=document.getElementById("comment_start").value;
+        var comment_start = parseInt(start) + 5;
+        document.getElementById("comment_start").value = comment_start;
+        var url = 'localhost:8000/wedding/rsvp_more/'+ comment_start ;
+        //alert(url);
+        $('#comments').append($('<div>').load(url));
+        return false;
+    }
+</script> -->
             
             <script>
                 function makeTimer() 

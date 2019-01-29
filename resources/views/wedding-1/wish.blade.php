@@ -11,61 +11,33 @@
                 <h2 id="Note"></h2>
                 <div class="contactform">
                     <div class="contactform">
-                        <form class="" role="form" method="POST" action="http://wd.halalindong.com/putriandre7/save_comment"  enctype="multipart/form-data">
-                            <input type="hidden" name="consumer_id" id="consumer_id" value="1"">
-                            <label>Nama:</label>
-                            <input type="text" name="name" id="name" value=""" class="form_input" required/>
-                            <label>Ucapan:</label>
-                            <textarea name="comment_state" id="comment_state" class="form_textarea textarea" rows="" cols="" required></textarea>
-                            <input type="submit" name="submit" class="form_submit submit_button" id="submit" value="Kirim" />
+                        {{ Form::open(['route'=>'send-wish.wedding-1','role'=>'form','enctype'=>'multipart/form-data']) }}
+                            {{ Form::hidden('customer_id', $id, ['id'=>'customer_id'])  }}
+                            {{ Form::label('nama', 'Nama :',[''])  }}
+                            {{ Form::text('nama', '',["id"=>"nama","class"=>"form_input","required"=>"required"]) }}
+                            {{ Form::label('wish', 'Ucapan :',[''])  }}
+                            {{ Form::textarea('wish', '', ['class'=>'form_textarea textarea','rows'=>'','cols'=>'','required'=>'required']) }}
+                            {{ Form::submit("Kirim Ucapan", ['class'=>'form_submit submit_button','id'=>'submit','name'=>'submit']) }}
                             <label id="loader" style="display:none;"><img src="{{ asset('wedding-1/images/loader.gif') }}" alt="Loading..." id="LoadingGraphic" /></label>
                       </form>
                     </div>
                 </div>
             {{-- Wish Start --}}
-                <ul class="features_list_detailed" id="comments" style="">
+                <ul class="features_list_detailed" id="wish" style="">
+                    @foreach ($wish as $doa)
                     <div>
                         <li>
                             <div class="feat_small_details" >
                                 <h4>
-                                    <a href="says.htm#">Nesta Maulana</a>
+                                    {{ $doa->nama }}
                                 </h4>
-                                <a href="says.htm#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nisi amet, dolores vitae quasi, libero necessitatibus aspernatur asperiores enim voluptatibus repellat. Odit maxime quas tempora incidunt iusto, quasi accusamus in!</a><br>
-                                <span style="font-size: 10px;color: #aaaaaa;">22 Januari 2018</span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="feat_small_details" >
-                                <h4>
-                                    <a href="says.htm#">Nesta Maulana</a>
-                                </h4>
-                                <a href="says.htm#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nisi amet, dolores vitae quasi, libero necessitatibus aspernatur asperiores enim voluptatibus repellat. Odit maxime quas tempora incidunt iusto, quasi accusamus in!</a><br>
-                                <span style="font-size: 10px;color: #aaaaaa;">22 Januari 2018</span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="feat_small_details" >
-                                <h4>
-                                    <a href="says.htm#">Nesta Maulana</a>
-                                </h4>
-                                <a href="says.htm#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nisi amet, dolores vitae quasi, libero necessitatibus aspernatur asperiores enim voluptatibus repellat. Odit maxime quas tempora incidunt iusto, quasi accusamus in!</a><br>
-                                <span style="font-size: 10px;color: #aaaaaa;">22 Januari 2018</span>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="feat_small_details" >
-                                <h4>
-                                    <a href="says.htm#">Nesta Maulana</a>
-                                </h4>
-                                <a href="says.htm#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nisi amet, dolores vitae quasi, libero necessitatibus aspernatur asperiores enim voluptatibus repellat. Odit maxime quas tempora incidunt iusto, quasi accusamus in!</a><br>
-                                <span style="font-size: 10px;color: #aaaaaa;">22 Januari 2018</span>
+                                {{ $doa->wish }}<br>
+                                <span style="font-size: 10px;color: #aaaaaa;">{{ substr($doa->created_at, 0,10)  }}</span>
                             </div>
                         </li>
                     </div>
-                    <input type="number" id="comment_start" value="0" style="display: none;">
+                    @endforeach
+                    {{-- <input type="number" id="comment_start" value="0" style="display: none;"> --}}
                 </ul>
                 {{-- <a href="javascript:view_more();" class="button_full btyellow external submit_button" id="view_more">view more</a> --}}
             </div>

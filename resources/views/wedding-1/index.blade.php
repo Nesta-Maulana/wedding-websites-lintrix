@@ -19,7 +19,8 @@
         <link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/animations.css')}}" />
         <link type="text/css" rel="stylesheet" href="{{asset('wedding-1/css/custom.css')}}" />
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+		<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 		<!-- <link href="fonts.googleapis.com/css.css" rel="stylesheet"> -->
         
     </head>
@@ -116,6 +117,36 @@
             </div>
         </div>  
             <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script>
+            <script type="text/javascript" src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+            <script>
+                $('.with-caption').magnificPopup({
+                        type: 'image',
+                        closeBtnInside: false,
+                        mainClass: 'mfp-with-zoom mfp-img-mobile',
+                        image: {
+                            verticalFit: true,
+                            titleSrc: function(item) 
+                            {
+                                var caption = item.el.attr('title');                
+                                return caption;
+                            }
+                        },
+                        gallery: 
+                        {
+                           enabled: true 
+                        },           
+                    callbacks: {
+                      open: function() 
+                      {
+                        this.wrap.on('click.pinhandler', '.pin-it', function(e) {
+                        });
+                      },
+                      beforeClose: function() {
+                      }
+                    }
+                  
+                });
+            </script>
             <script>
                 document.getElementById('mute-sound').style.display = 'none';
                 document.getElementById('unmute-sound').addEventListener('click', function(event)
@@ -144,37 +175,18 @@
                 function pindahMenu(tujuan) 
                 {
                     var active = $('#content').find('.active').attr('id');
+                    // var bottom = $('#mainmenu').find('.swiper-slide-active').attr('id');
                     var tujuan = tujuan;
+                    // $("#"+bottom).removeClass('active-menu'); 
+                    // $("#"+tujuan+"bottom").addClass('active-menu');
+
                     $("#"+active).removeClass('animated flip active'); 
                     $("#"+active).addClass('hidden');
                     $("#"+tujuan).removeClass('hidden');
                     $("#"+tujuan).addClass('animated flip active');
                 }
             </script>
-<!--             <script>
-    function view_more() 
-    {       
-        var start=document.getElementById("comment_start").value;
-        var comment_start = parseInt(start) + 5;
-        document.getElementById("comment_start").value = comment_start;
-
-        var url = 'localhost:8000/wedding/says_more/'+ comment_start ;
-        //alert(url);
-        $('#comments').append($('<div>').load(url));
-        return false;
-    }
-    function rsvp_more() 
-    {     
-        var start=document.getElementById("comment_start").value;
-        var comment_start = parseInt(start) + 5;
-        document.getElementById("comment_start").value = comment_start;
-        var url = 'localhost:8000/wedding/rsvp_more/'+ comment_start ;
-        //alert(url);
-        $('#comments').append($('<div>').load(url));
-        return false;
-    }
-</script> -->
-            
+<!--             <script> function view_more() {var start=document.getElementById("comment_start").value; var comment_start = parseInt(start) + 5; document.getElementById("comment_start").value = comment_start; var url = 'localhost:8000/wedding/says_more/'+ comment_start ; //alert(url); $('#comments').append($('<div>').load(url)); return false; } function rsvp_more() {var start=document.getElementById("comment_start").value; var comment_start = parseInt(start) + 5; document.getElementById("comment_start").value = comment_start; var url = 'localhost:8000/wedding/rsvp_more/'+ comment_start ; //alert(url); $('#comments').append($('<div>').load(url)); return false; } </script> -->
             <script>
                 function makeTimer() 
                 {

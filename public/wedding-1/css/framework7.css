@@ -5101,6 +5101,11 @@ html.ios-gt-8 .autocomplete-dropdown .list-block b {
   height: 100%;
   position: relative;
 }
+.swiper-slide-active 
+{
+  background-color: #d3d6cb;
+}
+
 /* Auto Height */
 .swiper-container-autoheight,
 .swiper-container-autoheight .swiper-slide {

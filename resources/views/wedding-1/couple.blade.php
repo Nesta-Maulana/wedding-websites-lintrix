@@ -19,11 +19,11 @@
 	      		<div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">			
 					<div class="swiper-wrapper">
 					  	<div id="brides" class="swiper-slide team-block">
-						  	<a href="couple.htm#" data-view=".view-main"><img src="{{ asset('images/couples/wanita/6.jpg') }}" alt="" title="" /></a>
+						  	<img src="{{ asset('images/couples/wanita/6.jpg') }}" alt="" title="" />
 						  	<strong>
-						  		Putri Marsella, S.H
+						  		Senja Putri Mentari
 						  	</strong>
-						  		Putri Pertama dari Bpk. Tafiqulhadi Andianto, M.Si & Ibu Natasha Alfiah, S.Ak
+						  		Putri Pertama dari Bpk. Muhammad Maulana & Ibu Natasha Alfiah
 					  	</div>
 					</div>
 		  		</div>
@@ -33,12 +33,10 @@
 		  		</span>
 		  		<div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">			
 					<div class="swiper-wrapper">
-					  	<div id="brides" class="swiper-slide team-block">
-						  	<a href="couple.htm#" data-view=".view-main">
-						  		<img src="{{ asset('images/couples/pria/6.jpg') }}" alt="" title="" />
-						  	</a>
-						  	<strong>Andre Saputra, S.T</strong>
-						  	Putra Pertama dari Bpk. Andre Ferdiansyah, M.Si & Ibu Dewi Ananda, S.Si					  	
+					  	<div id="brides" class="swiper-slide team-block">  	
+					  		<img src="{{ asset('images/couples/pria/6.jpg') }}" alt="" title="" />
+						  	<strong>Fajar Putra Maulana</strong>
+						  	Putra Pertama dari Bpk. Ferdiansyah & Ibu Tari Ananda					  	
 					  	</div>
 					</div>
 				</div>		  		  

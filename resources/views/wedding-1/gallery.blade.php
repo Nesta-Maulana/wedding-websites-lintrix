@@ -12,27 +12,13 @@
                     <div class="tabs">
                         <div id="tab2p" class="tab active">
                             <ul id="photoslist" class="photo_gallery_12">
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/1.jpg')}}" onclick="popup('<?=asset('images/couples/1.jpg');?>')" alt="image"/>
+                                @for ($i = 1; $i <=18 ; $i++)
+                                    <li style="width: 32.5%;padding: 1px;">
+                                    <a href="{{asset('images/couples/'.$i.'.jpg')}}" class="with-caption image-link" title="Gallery">
+                                        <img class="image-link" src="{{asset('images/couples/'.$i.'.jpg')}}"/>
+                                    </a>
                                 </li>
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/2.jpg')}}" onclick="popup('<?=asset('images/couples/2.jpg');?>')" alt="image"/>
-                                </li>
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/4.jpg')}}" onclick="popup('<?=asset('images/couples/4.jpg');?>')" alt="image"/>
-                                </li>
-                                <li style="width: 99%;padding: 1px;">
-                                    <img src="{{asset('images/couples/5.jpg')}}" onclick="popup('<?=asset('images/couples/5.jpg');?>')" alt="image"/>
-                                </li>
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/6.jpg')}}" onclick="popup('<?=asset('images/couples/6.jpg');?>')" alt="image"/>
-                                </li>
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/7.jpg')}}" onclick="popup('<?=asset('images/couples/7.jpg');?>')" alt="image"/>
-                                </li>
-                                <li style="width: 32.5%;padding: 1px;">
-                                    <img src="{{asset('images/couples/8.jpg')}}" onclick="popup('<?=asset('images/couples/8.jpg');?>')" alt="image"/>
-                                </li>
+                                @endfor
                             </ul>   
                         </div>
                     </div>
@@ -52,6 +38,6 @@
   <div class="overlay"></div>
   <div class="img-show">
     <span>X</span>
-    <img src="">
+    <img src="" style="width:100%;height: width:100%">
   </div>
 </div>

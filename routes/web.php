@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('landing-page.index');
+})->name('landing-page');
 
 Route::get('/wedding','Wedding\WeddingController@index')->name('index.wedding-1');
 Route::post('/wedding/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-1');

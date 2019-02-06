@@ -1343,8 +1343,13 @@ input::-moz-focus-inner {
   transition: all 0.3s ease-in-out;
 }
 .header-logo img {
+<<<<<<< HEAD
 width: 280px;
     height: 140px;
+=======
+  width: 200px;
+  height: 38px;
+>>>>>>> refs/remotes/origin/master
 }
 
 
@@ -1629,8 +1634,13 @@ width: 280px;
     left: 30px;
   }
   .header-logo img {
+<<<<<<< HEAD
      width: 200px;
     height: 120px;
+=======
+    width: 180px;
+    height: 34px;
+>>>>>>> refs/remotes/origin/master
   }
 
   .header-menu-toggle {

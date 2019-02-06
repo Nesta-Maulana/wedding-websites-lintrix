@@ -13,6 +13,9 @@
 					<div class="item-folio__thumb">
 						<a href="{{ asset('landing-page/images/portfolio/gallery/wedding-1.png') }}" class="thumb-link" title="Wedding Mobile Website" data-size="1050x700">
 							<img src="{{ asset('landing-page/images/portfolio/wedding-1.png') }}" alt="">
+						<a href="{{ asset('landing-page/images/portfolio/gallery/g-lamp.jpg') }}" class="thumb-link" title="Lamp" data-size="1050x700">
+							<img src="{{ asset('landing-page/images/portfolio/lamp.jpg') }}" alt="">
+>>>>>>> refs/remotes/origin/master
 						</a>
 					</div>
 					<div class="item-folio__text">
@@ -29,12 +32,80 @@
 					</a>
 					<div class="item-folio__caption">
 						<p>Didesign sesuai dengan resolusi layar setiap mobile phone . Menjadikan undangan anda lebih elegan dan lebih mudah di akses. Dan tentunya, lebih menghemat banyak kertas. </p>
+=======
+							Lamp
+						</h3>
+						<p class="item-folio__cat">
+							Web Design
+						</p>
+					</div>
+
+					<a href="{{ route('landing-page') }}" class="item-folio__project-link" title="Project link">
+						Project Link
+					</a>
+					<div class="item-folio__caption">
+						<p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+					</div>
+				</div> 
+			</div> 
+			<div class="masonry__brick" data-aos="fade-up">
+				<div class="item-folio">
+					<div class="item-folio__thumb">
+						<a href="{{ asset('landing-page/images/portfolio/gallery/g-salad.jpg') }}" class="thumb-link" title="Salad" data-size="1050x700">
+							<img src="{{ asset('landing-page/images/portfolio/salad.jpg') }}">
+						</a>
+					</div>
+					<div class="item-folio__text">
+						<h3 class="item-folio__title">
+							Salad
+						</h3>
+						<p class="item-folio__cat">
+							Branding
+						</p>
+					</div>
+					<a href="{{ route('landing-page') }}" class="item-folio__project-link" title="Project link">
+						Project Link
+					</a>
+					<span class="item-folio__caption">
+						<p>
+							Vero molestiae sed aut natus excepturi. Et tempora numquam. 
+							Temporibus iusto quo.Unde dolorem corrupti neque nisi.
+						</p>
+					</span>
+				</div> 
+			</div> 
+			<div class="masonry__brick" data-aos="fade-up">
+				<div class="item-folio">
+					<div class="item-folio__thumb">
+						<a href="{{ asset('landing-page/images/portfolio/gallery/g-lamp.jpg') }}" class="thumb-link" title="Lamp" data-size="1050x700">
+							<img src="{{ asset('landing-page/images/portfolio/lamp.jpg') }}" alt="">
+						</a>
+					</div>
+					<div class="item-folio__text">
+						<h3 class="item-folio__title">
+							Lamp
+						</h3>
+						<p class="item-folio__cat">
+							Web Design
+						</p>
+					</div>
+
+					<a href="{{ route('landing-page') }}" class="item-folio__project-link" title="Project link">
+						Project Link
+					</a>
+					<div class="item-folio__caption">
+						<p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+>>>>>>> refs/remotes/origin/master
 					</div>
 				</div> 
 			</div> 
 		</div> 
 	</div> 
+<<<<<<< HEAD
 	<!--<div class="testimonials-wrap" data-aos="fade-up">
+=======
+	<div class="testimonials-wrap" data-aos="fade-up">
+>>>>>>> refs/remotes/origin/master
 		<div class="row">
 			<div class="col-full testimonials-header">
 				<h2 class="h1">What Clients Are Saying.</h2>
@@ -88,5 +159,9 @@
 				</div>  
 			</div> 
 		</div> 
+<<<<<<< HEAD
 	</div>--> 
+=======
+	</div> 
+>>>>>>> refs/remotes/origin/master
 </section>

@@ -9,7 +9,7 @@
 		var marker1_Latitude=40.707892 
 		var marker1_Longitude=-74.008920
 		var marker1_content="<h4>Wedding Ceremony</h4> Masjid Alumni IPB" // marker or  on click content (Info Window) 
-		var marker1_pointerUrl = 'assets/img/map-marker.png' // set your color pointer here!
+		var marker1_pointerUrl = 'public/wedding-2/img/map-marker.png' // set your color pointer here!
 
 // MARKER 2 FOR RECPTIONS
 		
@@ -17,7 +17,7 @@
 		var marker2_Latitude=-6.602320
 		var marker2_Longitude=106.806880
 		var marker2_content="<h4>Reception</h4> Masjid Alumni IPB" // marker or  on click content (Info Window) 
-		var marker2_pointerUrl = 'assets/img/map-marker.png' // set your color pointer here!	
+		var marker2_pointerUrl = 'public/wedding-2/img/map-marker.png' // set your color pointer here!	
 
 //********************WEDDING and Recptions Details END*********************/
 

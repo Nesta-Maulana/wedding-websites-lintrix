@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <!--<section id="stats" class="s-stats">
-=======
+
 <section id="stats" class="s-stats">
->>>>>>> refs/remotes/origin/master
+
 	<div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
 		<div class="col-block stats__col ">
 			<div class="stats__count">129</div>
@@ -21,8 +21,8 @@
 			<h5>Happy Clients</h5>
 		</div>
 	</div> 
-<<<<<<< HEAD
+
 </section> -->
-=======
+
 </section> 
->>>>>>> refs/remotes/origin/master
+

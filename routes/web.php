@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('landing-page.index');
 })->name('landing-page');
 
-Route::get('/wedding','Wedding\WeddingController@index')->name('index.wedding-1');
-Route::post('/wedding/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-1');
+Route::get('/wedding-1','Wedding\WeddingController@index')->name('index.wedding-1');
+Route::post('/wedding-1/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-1');
 
+Route::get('/wedding-2','Wedding\Wedding2Controller@index')->name('index.wedding-2');
+Route::post('/wedding-2/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-2');
 /*
 Route::get('/wedding/wish', function () 
 {

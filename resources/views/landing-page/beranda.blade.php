@@ -3,7 +3,7 @@
 	<div class="home-content">
 		<div class="row home-content__main">
 			<h1>
-				Hello World, We are <br>
+				Hello World, <br/> We are 
 				Pandawa Tech.
 			</h1>
 			<p>

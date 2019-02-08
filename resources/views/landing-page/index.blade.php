@@ -2,11 +2,11 @@
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8">
-<<<<<<< HEAD
+
 		<title>Pandawa Tech</title>	
-=======
+
 		<title>Transcend</title>	
->>>>>>> refs/remotes/origin/master
+
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,11 +22,7 @@
 	<header class="s-header">
 		<div class="header-logo">
 			<a class="site-logo" href="index.html">
-<<<<<<< HEAD
-				<img src="{{ asset('landing-page/images/logo-putih.png') }}" alt="Homepage" wid>
-=======
-				<img src="{{ asset('landing-page/images/logo.svg') }}" alt="Homepage">
->>>>>>> refs/remotes/origin/master
+				<img src="{{ asset('landing-page/images/logo-putih.png') }}" alt="Homepage" >
 			</a>
 		</div> 
 		<nav class="header-nav">

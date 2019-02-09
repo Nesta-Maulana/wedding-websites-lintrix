@@ -1,0 +1,19 @@
+To Do : 
+1. Memisahkan setiap page menjadi templating blade 
+2. merapihkan setiap coding sesuai dengan kerapihan yang biasa
+3. Memisahkan style inline coding ke custom.css ( bisa dibuat sendiri aja)
+4. IKUTI STYLE CODING YANG ADA DI TEMPLATING SEBELUMNYA 
+5. Untuk kolom Friend Wish bisa menggunakan database yang disediakan . Sesuaikan dengan template sebelumnya yaa :)
+6. Untuk Controller dan Model bisa melihat templating sebelumnya 
+7. Untuk gambar pengantin, bisa menggunakan file yang ada di asset/image jadi ga perlu pake foto pengantin yang ada di template . 
+8. Setiap push ke git pake PUSH ORIGIN MASTER 
+
+Template yang harus di rapihkan dan di edit 
+1. adiskabimo 
+2. halalindong-anindaprimus
+3. halalindong-hanestyaricky
+4. halalindong-malareza
+5. halalindong-putriandre3
+6. halalingdong-putriandre8
+7. lovelydylanico
+8. wedding countdown 

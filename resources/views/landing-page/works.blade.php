@@ -12,10 +12,7 @@
 				<div class="item-folio">
 					<div class="item-folio__thumb">
 						<a href="{{ asset('landing-page/images/portfolio/gallery/wedding-1.png') }}" class="thumb-link" title="Wedding Mobile Website" data-size="1050x700">
-							<img src="{{ asset('landing-page/images/portfolio/wedding-1.png') }}" alt="">
-						<a href="{{ asset('landing-page/images/portfolio/gallery/g-lamp.jpg') }}" class="thumb-link" title="Lamp" data-size="1050x700">
-							<img src="{{ asset('landing-page/images/portfolio/lamp.jpg') }}" alt="">
-
+							<img src="{{ asset('landing-page/images/portfolio/wedding-1.png') }}" style="width: 100%">
 						</a>
 					</div>
 					<div class="item-folio__text">

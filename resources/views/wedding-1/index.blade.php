@@ -106,7 +106,7 @@
                         this.wrap.on('click.pinhandler', '.pin-it', function(e) {});
                     },
                     beforeClose: function() {}
-                }
+              }
             });
         </script>
         <script>

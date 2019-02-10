@@ -1,0 +1,836 @@
+#pages_maincontent{
+    top: 0;
+    background-image: url(../images/textures/1.png);
+    padding-top: 0px;
+}
+@font-face{
+    src: url('../fonts/greatvibes.ttf');
+    font-family: greatvibes;
+}
+  
+      
+@font-face{
+    src: url('../fonts/autumn.ttf');
+    font-family: autumn;
+}
+      
+@font-face{
+    src: url('../fonts/dosis.ttf');
+    font-family: dosis;
+}
+     
+@font-face{
+    src: url('../fonts/watermelon.ttf');
+    font-family: watermelon;
+}  
+      
+@font-face{
+    src: url('../fonts/neuton_regular.ttf');
+    font-family: neuton_regular;
+}  
+      
+@font-face{
+    src: url('../fonts/elsie_regular.otf');
+    font-family: elsie_regular;
+}
+        
+@font-face{
+    src: url('../fonts/alexbrush_regular.ttf');
+    font-family: alexbrush_regular;
+}
+  
+      
+@font-face{
+    src: url('../fonts/elsieswashcaps_regular.otf');
+    font-family: elsieswashcaps_regular;
+}
+  
+      
+@font-face{
+    src: url('../fonts/mellony_dry_brush.ttf');
+    font-family: mellony_dry_brush;
+}
+  
+      
+@font-face{
+    src: url('../fonts/stylish_calligraphy.ttf');
+    font-family: stylish_calligraphy;
+}
+  
+      
+@font-face{
+    src: url('../fonts/playfairdisplay_regular.otf');
+    font-family: playfairdisplay_regular;
+    }
+  
+      
+@font-face{
+    src: url('../fonts/antipasto_regulartrial.ttf');
+    font-family: antipasto_regulartrial;
+}
+  
+      
+@font-face{
+    src: url('../fonts/als_script_regular.ttf');
+    font-family: als_script_regular;
+}
+  
+      
+@font-face{
+    src: url('../fonts/glass_antiqua_regular.ttf');
+    font-family: glass_antiqua_regular;
+}
+  
+      
+@font-face{
+    src: url('../fonts/sacramento_regular.ttf');
+    font-family: sacramento_regular;
+}
+  
+      
+@font-face{
+    src: url('../fonts/setit.otf');
+    font-family: setit;
+}
+  
+      
+@font-face{
+    src: url('../fonts/monotype_corsiva.ttf');
+    font-family: monotype_corsiva;
+}
+  
+      
+@font-face{
+    src: url('../fonts/rs.ttf');
+    font-family: rs;
+}
+  
+      
+@font-face{
+    src: url('../fonts/aracne_light.ttf');
+    font-family: aracne_light;
+}
+@font-face{
+    src: url('../fonts/aracne_regular.ttf');
+    font-family: aracne_regular;
+}
+.main-nav.icons_21 ul li{
+    border-bottom: 1px #a1642a solid;
+    border-right: 1px #a1642a solid;
+
+  }
+.leftmenu_name{
+    color: #a1642a;
+}
+#header_bottom {
+	padding-bottom: 20px;
+}
+
+#component1 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#home_content {
+	margin-top: 30px !important;
+	margin-bottom: 0px !important; 
+	height: 68%; 
+	width: 80%; 
+	margin: 0 auto;
+	text-align: center;
+}
+
+#home_content #home_text1 {
+	font-family: elsie_regular;
+	font-size: 14px;
+	color:#a1642a;
+	letter-spacing: 1px;
+}
+
+#home_content #wd_data {
+	color:#a1642a;
+}
+
+#home_content #couple_name {
+	font-size: 45px;
+	font-family: als_script_regular;
+	line-height: 100%;
+	
+}
+
+#home_content #party_date2 {
+	font-size: 18px;
+	font-family: elsieswashcaps_regular
+}
+
+#home_content #party_date2 i{
+	font-size: 7px;
+}
+
+#home_content #party_loc {
+	font-family: elsie_regular;
+	font-size: 13px;
+
+}
+
+#couple_content {
+	text-align: center; 
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	width: 80%; 
+	margin: 0 auto;
+	padding: 0px 10px;
+}
+
+#couple_content>span {
+	font-family: dosis;
+	font-size: 14px;
+}
+
+#pre_greeting {
+	font-family: alexbrush_regular;
+	font-size: 18px;
+	color:#a1642a;
+}
+
+#couple_content img {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#brides {
+	background-color: transparent;
+	font-family: dosis;
+}
+
+#brides strong {
+	font-family: als_script_regular;
+	font-size: 26px;
+	color:#a1642a;
+}
+
+#couple_content #dengan {
+	font-family: dosis;
+	font-size: 18px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+#event_content {
+	margin-top: -30px !important;
+	margin-bottom: 0px !important; 
+	/*height: 60%;*/ 
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+#event_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#event_content ul{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family:dosis;
+}
+
+#event_content>ul>li{
+    border-bottom: none;
+}
+
+#akad>h4>a{
+    font-weight: bold; 
+}
+
+
+#map_content {
+	margin-top: -20px !important;
+	margin-bottom: 0px !important;  
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+#map_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#map_content_iframe {
+    border:0;  
+}
+
+#map_content>a {
+    background-color:#cfcec9; 
+    color: #a1642a;
+}
+
+#quotes_content {
+	margin-top: -20px !important;
+	margin-bottom: 0px !important; 
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+#quotes_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#quotes_content span {
+   font-family: dosis;
+   font-size: 16px; 
+}
+
+#says_content {
+	margin-top: -30px !important;
+	margin-bottom: 0px !important; 
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 10px;
+}
+
+#says_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+.submit_button {
+  background-color: #cfcec9 !important;
+  color: #a1642a !important;
+  font-size: 16px !important;
+}
+
+#says_content>ul{
+    background-color: white;
+    margin-top: 20px;
+}
+
+#says_content>ul>li{
+	border-bottom: none;
+}
+
+#comment_start {
+    display: none;
+}
+
+#gallery_content {
+	margin-top: -20px !important;
+	margin-bottom: 0px !important;
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+#gallery_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#gallery_content .photos_tabs {
+	margin-top: 0;
+}
+
+#photoslist>li{
+    width: 32.5%;
+    padding: 1px;
+}
+
+#photoslist{
+    margin-bottom: -10px;
+}
+
+#video_content {
+	margin-top: -30px !important;
+	margin-bottom: 0px !important; 
+	width: 80%; 
+	margin: 0 auto;
+	padding: 30px 10px;
+	
+}
+
+#video_content h2 {
+	color:#a1642a;
+	font-family: greatvibes;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#video_name {
+    background-color: #cfcec9; 
+    color: #a1642a !important;
+    font-size: 16px !important;
+}
+.icon-title{
+    color: #a1642a;
+    font-size: 12px;
+  }
+
+.icon-title-more{
+  color: #a1642a;
+}
+
+#mainmenu{
+  background-image: url(../images/background/textures/1.png);
+}
+
+.bottom_menu_open{
+  background-color:#cfcec9;
+}
+
+.toolbar-icon a img {
+  margin-top: 10%;
+}
+.music-box {
+  position: fixed;
+  width: 300px;
+  height: 160px;
+  z-index: 120;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media (max-width: 991px) {
+  .music-box {
+    width: 50px;
+    height: 150px;
+    right: auto;
+    right:10px;
+    top:10px;
+  }
+}
+
+.music-box .music-holder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.music-box .music-holder iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.music-box button {
+  background: rgba(0, 0, 0, 0.1);
+  width: 50px;
+  height: 50px;
+  line-height: 37px;
+  font-size: 18px;
+  font-size: 1rem;
+  color: #a1642a;
+  border: 1px solid #e6e6e6;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.music-box button i{
+    font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .music-box button {
+    right: 0;
+    left: auto;
+  }
+}
+
+.music-box .toggle-music-box {
+  top: -50px;
+  visibility: visible;
+  opacity: 1;
+
+}
+
+
+.music {
+  padding: 0;
+  background: none !important;
+  border: none !important;
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+
+.music:focus {
+  outline: none;
+}
+
+.fa-stack{
+    right:12px;
+    top: -65px;
+    width: 0;
+    height: 0;
+}
+#header_bottom {
+  padding-bottom: 20px;
+}
+
+#component1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#home_content {
+  margin-top: 30px !important;
+  margin-bottom: 0px !important; 
+  height: 68%; 
+  width: 80%; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+#home_content #home_text1 {
+  font-family: elsie_regular;
+  font-size: 14px;
+  color:#a1642a;
+  letter-spacing: 1px;
+}
+
+#home_content #wd_data {
+  color:#a1642a;
+}
+
+#home_content #couple_name {
+  font-size: 45px;
+  font-family: als_script_regular;
+  line-height: 100%;
+  
+}
+
+#home_content #party_date2 {
+  font-size: 18px;
+  font-family: elsieswashcaps_regular
+}
+
+#home_content #party_date2 i{
+  font-size: 7px;
+}
+
+#home_content #party_loc {
+  font-family: elsie_regular;
+  font-size: 13px;
+
+}
+
+#couple_content {
+  text-align: center; 
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  width: 80%; 
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+#couple_content>span {
+  font-family: dosis;
+  font-size: 14px;
+}
+
+#pre_greeting {
+  font-family: alexbrush_regular;
+  font-size: 18px;
+  color:#a1642a;
+}
+
+#couple_content img {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#brides {
+  background-color: transparent;
+  font-family: dosis;
+}
+
+#brides strong {
+  font-family: als_script_regular;
+  font-size: 26px;
+  color:#a1642a;
+}
+
+#couple_content #dengan {
+  font-family: dosis;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+#event_content {
+  margin-top: -30px !important;
+  margin-bottom: 0px !important; 
+  /*height: 60%;*/ 
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+#event_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+#event_content ul{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family:dosis;
+}
+
+#event_content>ul>li{
+    border-bottom: none;
+}
+
+#akad>h4>a{
+    font-weight: bold; 
+}
+
+
+#map_content {
+  margin-top: -20px !important;
+  margin-bottom: 0px !important;  
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+#map_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+#map_content_iframe {
+    border:0;  
+}
+
+#map_content>a {
+    background-color:#cfcec9; 
+    color: #a1642a;
+}
+
+#quotes_content {
+  margin-top: -20px !important;
+  margin-bottom: 0px !important; 
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+#quotes_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+#quotes_content span {
+    font-family: dosis;
+    font-size: 16px; 
+}
+
+#says_content {
+  margin-top: -30px !important;
+  margin-bottom: 0px !important; 
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+#says_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.submit_button {
+  background-color: #cfcec9 !important;
+  color: #a1642a !important;
+  font-size: 16px !important;
+}
+
+#gallery_content {
+  margin-top: -20px !important;
+  margin-bottom: 0px !important;
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+#gallery_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+#gallery_content .photos_tabs {
+  margin-top: 0;
+}
+
+#photoslist>li{
+    width: 32.5%;
+    padding: 1px;
+}
+
+#photoslist{
+    margin-bottom: -10px;
+}
+
+#video_content {
+  margin-top: -30px !important;
+  margin-bottom: 0px !important; 
+  width: 80%; 
+  margin: 0 auto;
+  padding: 30px 10px;
+  
+}
+
+#video_content h2 {
+  color:#a1642a;
+  font-family: greatvibes;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+#video_name {
+    background-color: #cfcec9; 
+    color: #a1642a !important;
+    font-size: 16px !important;
+}
+
+#days {
+  font-size: 40px;
+  color: #db4844;
+}
+#hours {
+  font-size: 30px;
+  color: #f07c22;
+}
+#minutes {
+  font-size: 30px;
+  color: #f6da74;
+}
+#seconds {
+  font-size: 30px;
+  color: #abcd58;
+}
+
+#timer div {
+    display: inline-block;
+    line-height: 1;
+    padding: 5px;
+} 
+
+#timer span {
+  display: block;
+  font-size: 20px;
+  color:#a1642a;
+  font-family: greatvibes;
+}
+
+#map_content>a {
+    background-color:#cfcec9; 
+    color: #a1642a;
+}
+
+#says_content>ul{
+    background-color: white;
+    margin-top: 20px;
+}
+
+#says_content>ul>li{
+  border-bottom: none;
+}
+
+#comment_start {
+    display: none;
+}
+
+#video_name {
+    background-color: #cfcec9; 
+    color: #a1642a !important;
+    font-size: 16px !important;
+}  

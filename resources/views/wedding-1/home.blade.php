@@ -10,5 +10,7 @@
                 <br/> <span id="home_text2"> invite you to celebrate </span><span id="party_date2"> 12 | December | 2019 </span> <span id="party_loc" style=""> Gedung Puri Begawan<br/> Bogor Timur, Bogor </span> </span>
             </div>
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;padding-bottom: 32px;"> <img src="{{asset('wedding-1/images/headers/bottom/7.png')}}" alt="" width="100%"></div>
-        </div> @include('wedding-1.bottom')</div>
+        </div> 
+        @include('wedding-1.bottom')
+    </div>
 </div>

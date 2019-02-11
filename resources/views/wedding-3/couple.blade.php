@@ -8,7 +8,7 @@
                 <span id="pre_greeting">
                     <strong class="pre_greeting">Bismillahirrahmanirrahim</strong><br>
                     <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> <br>
-                    Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan putra putri kami 	      		
+                    Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan putra putri
                 </span>
                 <div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">
                     <div class="swiper-wrapper">
@@ -17,29 +17,28 @@
                                 <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" title="" />
                             </a>
                             <strong>Aninda Ristri Rahmadita</strong>
-                            Putri Pertama dari Bpk. Michael Aris Widodo & Ibu Tri Rachmini (almh)					  	</div>
+                            Putri Pertama dari Bpk. Michael Aris Widodo & Ibu Tri Rachmini (almh)					  	
                         </div>
                     </div>
-                    <span> dengan <br></span>
-                    <div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">
-                        <div class="swiper-wrapper">
-                            <div id="brides" class="swiper-slide team-block">
-                                <a href="#" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" title="" />
-                                </a>
-                                <strong>Primus Wiatmaja Nursatata</strong>
-                                Putra Pertama dari Bpk. Pranowo Hertinanto (alm) & Ibu Noer Zulkarnaeni (almh)					  	</div>
-                            </div>
-                        <!-- <div class="swiper-pagination-teambigger"></div> -->
-                        </div>  
-                    </div>
-                    <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                        <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" >
-                    </div>      	
                 </div>
-                @include('wedding-3.bottom')
+                <span> dengan <br></span>
+                <div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">
+                    <div class="swiper-wrapper">
+                        <div id="brides" class="swiper-slide team-block">
+                            <a href="#" data-view=".view-main">
+                                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" title="" />
+                            </a>
+                            <strong>Primus Wiatmaja Nursatata</strong>
+                            Putra Pertama dari Bpk. Pranowo Hertinanto (alm) & Ibu Noer Zulkarnaeni (almh)					  	
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination-teambigger"></div> -->
+                </div>  
             </div>
+            <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
+                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" >
+            </div>      	
         </div>
-    </div>  
-    </div>                    
-</div>
+        @include('wedding-3.bottom')
+    </div>
+</div>  

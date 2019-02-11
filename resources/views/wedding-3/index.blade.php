@@ -1,119 +1,105 @@
-
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  
-  <meta property="og:image" content="{{ asset('wedding-3/images/imagelink/13.jpg') }}"> 
-  <meta property="og:title" content="Wedding of Aninda & Primus" />
-  <meta property="og:description" content="Gedung SDELOG POLRI, 08 | 04 |2018.">
-  <meta property="og:type" content="article" />   
-  <meta property="og:url" content="anindaprimus"/>
-
-  <link rel="shortcut icon" href="{{ asset('wedding-3/images/favicon.png') }}">
-  <link href="{{ asset('wedding-3/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
-  <link href="{{ asset('wedding-3/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-  <title>Aninda & Primus Wedding - by halalindong.com</title>
-  <link rel="stylesheet" href="{{ asset('wedding-3/css/framework7.css') }}">
-  <link rel="stylesheet" href="{{ asset('wedding-3/css/style.css') }}">
-  <link href="{{ asset('wedding-3/css/font-awesome.min.css') }}" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/swipebox.css') }}" />
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/animations.css') }}" />
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/custom.css') }}" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta property="og:image" content="">
+    <meta property="og:title" content="Wedding of Fajar & Senja" />
+    <meta property="og:description" content="Gedung Puri Begawan Bogor, 12 | December | 2019.">
+    <meta property="og:type" content="article" />
+    <link rel="shortcut icon" href="{{asset('images/pandawalogo.jpg')}}">
+    <meta property="og:url" content="" />
+    <link href="{{ asset('wedding-3/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <link href="{{ asset('wedding-3/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <title>Fajar - Senja pandawa.tech</title>
+    <link rel="stylesheet" href="{{ asset('wedding-3/css/framework7.css') }}">
+    <link rel="stylesheet" href="{{ asset('wedding-3/css/style.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/swipebox.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/animations.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/custom.css') }}" />    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 </head>
 
 <body id="mobile_wrap">
-  <div class="statusbar-overlay"></div>
-  <div class="panel-overlay"></div>
-<div class="panel panel-left panel-reveal">
-	<div class="view view-subnav">
-        <div class="pages">
-            <div data-page="panel-leftmenu" class="page pagepanel" style="background-color: #214931;">	
-                <div class="page-content">
-                    <nav class="main-nav icons_21">
-                        <ul >  
-                            <li>
-                                <a href="" onclick="pindahMenu('index')"  class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/home.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Home</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" onclick="pindahMenu('couple')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/rings.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Mempelai</span>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="" onclick="pindahMenu('event')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/blog.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Acara</span>
-                                </a>
-                            </li>  
-                            <li>
-                                <a href="" onclick="pindahMenu('gallery')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/photos.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Galeri</span>
-                                </a>
-                            </li>			
-                            <li>
-                                <a href="" onclick="pindahMenu('map')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/map.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Lokasi</span>
-                                </a>
-                            </li>
-                        
-                            <li>
-                                <a href="" onclick="pindahMenu('quotes')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/quotes.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Quotes</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" onclick="pindahMenu('says')" class="close-panel" data-view=".view-main">
-                                    <img src="{{ asset('wedding-3/images/icons/gold/message.png') }}" alt="" title="" />
-                                    <span class="leftmenu_name">Ucapan</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="close-panel" data-view=".view-main">
-                                    <img src="" alt="" title="" />
-                                    <span class="leftmenu_name"></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-reveal">
+	   <div class="view view-subnav">
+            <div class="pages">
+                <div data-page="panel-leftmenu" class="page pagepanel" style="background-color: #214931;">	
+                    <div class="page-content">
+                        <nav class="main-nav icons_21">
+                            <ul >  
+                                <li>
+                                    <a href="" onclick="pindahMenu('index')"  class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/home.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" onclick="pindahMenu('couple')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/rings.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Mempelai</span>
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="" onclick="pindahMenu('event')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/blog.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Acara</span>
+                                    </a>
+                                </li>  
+                                <li>
+                                    <a href="" onclick="pindahMenu('gallery')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/photos.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Galeri</span>
+                                    </a>
+                                </li>			
+                                <li>
+                                    <a href="" onclick="pindahMenu('map')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/map.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Lokasi</span>
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="" onclick="pindahMenu('quotes')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/quotes.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Quotes</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" onclick="pindahMenu('says')" class="close-panel" data-view=".view-main">
+                                        <img src="{{ asset('wedding-3/images/icons/gold/message.png') }}" alt="" title="" />
+                                        <span class="leftmenu_name">Ucapan</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="close-panel" data-view=".view-main">
+                                        <img src="" alt="" title="" />
+                                        <span class="leftmenu_name"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-	</div>  
-</div>
+        </div>  
+    </div>
 
-<style>
-    .active{
-        visibility: "";
-    }
-    .hidden{
-        visibility: hidden;
-    }
-</style>
 
 <div class="views">
     <div class="view view-main">
         <div class="pages" id="content">
-        
-        @include('wedding-3.home')
-        @include('wedding-3.quotes')
-        @include('wedding-3.event')
-        @include('wedding-3.gallery')
-        @include('wedding-3.couple')
-        @include('wedding-3.map')
-        
-        
-
+            @include('wedding-3.home')
+            @include('wedding-3.couple')
+            @include('wedding-3.event')
+            @include('wedding-3.gallery')
+            @include('wedding-3.map')
+            @include('wedding-3.quotes')
         </div>
     </div>
 </div>

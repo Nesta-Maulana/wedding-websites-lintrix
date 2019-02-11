@@ -512,5 +512,5 @@
 	visibility: "";
 }
 .hidden{
-	visibility: hidden !important;
+	visibility: hidden ;
 }

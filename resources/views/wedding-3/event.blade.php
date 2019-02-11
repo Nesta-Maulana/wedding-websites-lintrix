@@ -1,4 +1,3 @@
-
 <div data-page="features" class="page no-toolbar no-navbar hidden" id="event">
     <div class="page-content">
         <div id="pages_maincontent">

@@ -1,8 +1,8 @@
-<div data-page="contact" class="page no-toolbar no-navbar hidden">
+<div data-page="contact" class="page no-toolbar no-navbar hidden" id="map">
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/top/11.png" alt="" width="50%" style="display: inline-block;"  >
+                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" style="display: inline-block;"  >
             </div>  	  
             <div id="map_content" class="page_single layout_fullwidth_padding">
                 <h2 class="page_title"> Lokasi </h2>	      
@@ -13,9 +13,10 @@
                 <div class="clear"></div>
             </div>
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/11.png" alt="" width="50%" >
+                <img src="{{ asset('wedding-3/images/headers/bottom/13.png') }}" alt="" width="50%" >
             </div>            
         </div>
         @include('wedding-3.bottom')
     </div>
 </div>
+                </div>

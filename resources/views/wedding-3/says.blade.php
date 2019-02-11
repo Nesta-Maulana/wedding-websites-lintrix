@@ -1,4 +1,4 @@
-<div data-page="about" class="page no-toolbar no-navbar hidden">
+<div data-page="about" class="page no-toolbar no-navbar hidden" id="says">
     <div class="page-content">
         <div id="pages_maincontent"> 
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >
@@ -57,7 +57,7 @@
             <a href="javascript:view_more();" class="button_full btyellow external submit_button" id="view_more">view more</a>
         </div>
         <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-            <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/11.png" alt="" width="50%" >
+            <img src="{{ asset('wedding-3/images/headers/bottom/13.png') }}" alt="" width="50%" >
         </div>      
     </div>
     @include('wedding-3.bottom')

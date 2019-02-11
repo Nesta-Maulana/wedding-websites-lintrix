@@ -1,16 +1,16 @@
 
-<div data-page="features" class="page no-toolbar no-navbar hidden">
+<div data-page="features" class="page no-toolbar no-navbar hidden" id="event">
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/top/11.png" alt="" width="50%" style="display: inline-block;"  >
+                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" style="display: inline-block;"  >
             </div>       
             <div id="event_content" class="page_single layout_fullwidth_padding">
                 <h2 class="page_title">Rangkaian Acara</h2> 
                 <ul class="features_list_detailed">                   
                     <li>
                         <div class="feat_small_icon">
-                            <img src="http://wd.halalindong.com/assets/templates/mobile/images/icons/gold/wedding-ring.png" alt="" title="" />
+                            <img src="{{ asset('wedding-3/images/icons/gold/rings.png') }}" alt="" title="" />
                         </div>
                         <div id="akad" class="feat_small_details">
                             <h4>
@@ -26,7 +26,7 @@
                     </li>
                     <li>
                         <div class="feat_small_icon">
-                            <img src="http://wd.halalindong.com/assets/templates/mobile/images/icons/gold/dove.png" alt="" title="" />
+                            <img src="{{ asset('wedding-3/images/icons/gold/rings.png') }}" alt="" title="" />
                         </div>
                         <div id="akad" class="feat_small_details">
                             <h4>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/11.png" alt="" width="50%" >
+                <img src="{{ asset('wedding-3/images/headers/bottom/13.png') }}" alt="" width="50%" >
             </div>     
         </div>
         @include('wedding-3.bottom')

@@ -1,8 +1,8 @@
-<div data-page="team" class="page no-toolbar no-navbar hidden">
+<div data-page="team" class="page no-toolbar no-navbar hidden" id="couple">
     <div class="page-content">					
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/top/11.png" alt="" width="50%" style="display: inline-block;"  >
+                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" style="display: inline-block;"  >
             </div>
             <div id="couple_content" class="page_single layout_fullwidth_padding">  
                 <span id="pre_greeting">
@@ -14,7 +14,7 @@
                     <div class="swiper-wrapper">
                         <div id="brides" class="swiper-slide team-block">
                             <a href="#" data-view=".view-main">
-                                <img src="http://wd.halalindong.com/assets/templates/mobile/images/couples/brides/13.jpg" alt="" title="" />
+                                <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" title="" />
                             </a>
                             <strong>Aninda Ristri Rahmadita</strong>
                             Putri Pertama dari Bpk. Michael Aris Widodo & Ibu Tri Rachmini (almh)					  	</div>
@@ -25,7 +25,7 @@
                         <div class="swiper-wrapper">
                             <div id="brides" class="swiper-slide team-block">
                                 <a href="#" data-view=".view-main">
-                                    <img src="http://wd.halalindong.com/assets/templates/mobile/images/couples/grooms/13.jpg" alt="" title="" />
+                                    <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" title="" />
                                 </a>
                                 <strong>Primus Wiatmaja Nursatata</strong>
                                 Putra Pertama dari Bpk. Pranowo Hertinanto (alm) & Ibu Noer Zulkarnaeni (almh)					  	</div>
@@ -34,11 +34,12 @@
                         </div>  
                     </div>
                     <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                        <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/11.png" alt="" width="50%" >
+                        <img src="{{ asset('wedding-3/images/headers/top/11.png') }}" alt="" width="50%" >
                     </div>      	
                 </div>
                 @include('wedding-3.bottom')
             </div>
         </div>
     </div>  
-                    
+    </div>                    
+</div>

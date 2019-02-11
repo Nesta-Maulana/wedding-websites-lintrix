@@ -1,4 +1,4 @@
-<div data-page="photos" class="page no-toolbar no-navbar hidden">
+<div data-page="photos" class="page no-toolbar no-navbar hidden" id="gallery">
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >
@@ -92,18 +92,9 @@
             </div> 
             <div class="clearleft"></div>
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/11.png" alt="" width="50%" >
+                <img src="{{ asset('wedding-3/images/headers/bottom/13.png') }}" alt="" width="50%" >
             </div>
         </div>
         @include('wedding-3.bottom')
-        </div>
     </div>
-
-    <div class="show">
-        <div class="overlay"></div>
-        <div class="img-show">
-            <span>X</span>
-            <img src="" style="width:100%;height: width:100%">
-        </div>
-    </div>
-      
+</div>

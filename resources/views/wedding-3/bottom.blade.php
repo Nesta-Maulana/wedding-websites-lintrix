@@ -4,42 +4,42 @@
 	<div class="swiper-wrapper">
 
         <div class="swiper-slide toolbar-icon">
-            <a href="" onclick="pindahMenu('index')" class="close-panel" data-view=".view-main" > 
+            <a  onclick="pindahMenu('index')" class="close-panel" data-view=".view-main" > 
                 <img src="{{ asset('wedding-3/images/icons/gold/home.png') }}" alt="" title="" />
                 <span class="icon-title">Home</span>
             </a>
         </div>
     	  
     	<div class="swiper-slide toolbar-icon">
-            <a href="http://wd.halalindong.com/anindaprimus/couple" >
+            <a onclick="pindahMenu('couple')" >
                 <img src="{{ asset('wedding-3/images/icons/gold/rings.png') }}" alt="" title="Mempelai" />
                 <span class="icon-title">Mempelai</span>
             </a>
         </div>
     
     	<div class="swiper-slide toolbar-icon">
-            <a href="http://wd.halalindong.com/anindaprimus/event" >
+            <a onclick="pindahMenu('event')">
                 <img src="{{ asset('wedding-3/images/icons/gold/blog.png') }}" alt="" title="" />
                 <span class="icon-title">Acara</span>
             </a>
         </div>
     
         <div class="swiper-slide toolbar-icon">
-            <a href="http://wd.halalindong.com/anindaprimus/gallery">
+            <a onclick="pindahMenu('gallery')">
                 <img src="{{ asset('wedding-3/images/icons/gold/photos.png') }}" alt="" title="Prewedding" />
                 <span class="icon-title">Galeri</span>
             </a>
         </div>
             
         <div class="swiper-slide toolbar-icon">
-            <a href="http://wd.halalindong.com/anindaprimus/map">
+            <a onclick="pindahMenu('map')">
                 <img src="{{ asset('wedding-3/images/icons/gold/map.png') }}" alt="" title="Lokasi" />
                 <span class="icon-title">Lokasi</span>
             </a>
         </div>
         
         <div class="swiper-slide toolbar-icon">
-            <a href="http://wd.halalindong.com/anindaprimus/quotes">
+            <a onclick="pindahMenu('quotes')">
                 <img src="{{ asset('wedding-3/images/icons/gold/quotes.png') }}" alt="" title="Kata Mutiara" />
                 <span class="icon-title">Quotes</span>
             </a>
@@ -47,7 +47,7 @@
             
         <div class="swiper-slide toolbar-icon">
         <!--<a href="ucapan.php" data-popup=".popup-social" class="open-popup"> -->
-            <a href="http://wd.halalindong.com/anindaprimus/says">
+            <a onclick="pindahMenu('ucapan')">
                 <img src="{{ asset('wedding-3/images/icons/gold/message.png') }}" alt="" title="Ucapan Do'a" />
                 <span class="icon-title">Ucapan</span>
             </a>

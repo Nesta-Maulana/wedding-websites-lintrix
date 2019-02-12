@@ -1,5 +1,4 @@
-
-<div data-page="about" class="page no-toolbar no-navbar hidden" id="quotes">
+<div data-page="quotes" class="page no-toolbar no-navbar hidden" id="quotes">
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;text-align: right;" >

@@ -35,25 +35,25 @@
                             <nav class="main-nav icons_21">
                                 <ul>
                                     <li>
-                                        <a onclick="pindahMenu('index')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/home.png')}}" alt="" title="" /> <span class="leftmenu_name">Home</span> </a>
+                                        <a onclick="pindahMenu('index')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/home.png')}}" alt="" title="" /> <span class="leftmenu_name">Home</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('couple')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/rings.png')}}" alt="" title="Bridegroom" /> <span class="leftmenu_name">Mempelai</span> </a>
+                                        <a onclick="pindahMenu('couple')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/rings.png')}}" alt="" title="Bridegroom" /> <span class="leftmenu_name">Mempelai</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('acara')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/blog.png')}}" alt="" title="Event" /> <span class="leftmenu_name">Acara</span> </a>
+                                        <a onclick="pindahMenu('acara')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/blog.png')}}" alt="" title="Event" /> <span class="leftmenu_name">Acara</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('photos')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/photos.png')}}" alt="" title="Photo" /> <span class="leftmenu_name">Galeri</span> </a>
+                                        <a onclick="pindahMenu('photos')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/photos.png')}}" alt="" title="Photo" /> <span class="leftmenu_name">Galeri</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('wish')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/message.png')}}" alt="" title="Wishes" /> <span class="leftmenu_name">Ucapan</span> </a>
+                                        <a onclick="pindahMenu('wish')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/message.png')}}" alt="" title="Wishes" /> <span class="leftmenu_name">Ucapan</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('map')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/map.png')}}" alt="" title="Map" /> <span class="leftmenu_name">Lokasi</span> </a>
+                                        <a onclick="pindahMenu('map')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/map.png')}}" alt="" title="Map" /> <span class="leftmenu_name">Lokasi</span> </a>
                                     </li>
                                     <li>
-                                        <a onclick="pindahMenu('quotes')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/quotes.png')}}" alt="" title="Quotes" /> <span class="leftmenu_name">Quotes</span> </a>
+                                        <a onclick="pindahMenu('quotes')" class="close-panel" data-view=".view-main"> <img src="{{asset('images/icons/gold/quotes.png')}}" alt="" title="Quotes" /> <span class="leftmenu_name">Quotes</span> </a>
                                     </li>
                                     <li> {{--
                                         <a onclick="pindahMenu('video')" class="close-panel" data-view=".view-main"> <img src="{{asset('wedding-1/images/icons/gold/video.png')}}" alt="" title="Video" /> <span class="leftmenu_name">Video</span> </a> --}}</li>
@@ -73,7 +73,8 @@
                 @include('wedding-1.event') 
                 @include('wedding-1.map') 
                 @include('wedding-1.couple') 
-                @include('wedding-1.gallery')</div>
+                @include('wedding-1.gallery')
+            </div>
                 <div class="music-box">
                     <button class="music-box-toggle-btn">
                         <audio id='song' loop>
@@ -122,7 +123,7 @@
                 document.getElementById('song').pause();
             });
         </script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script>
+        {{-- <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script> --}}
         <script type="text/javascript" src="{{asset('wedding-1/js/jquery.validate.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('wedding-1/js/framework7.js')}}"></script>
         <script type="text/javascript" src="{{asset('wedding-1/js/jquery.swipebox.js')}}"></script>

@@ -19,4 +19,3 @@
         @include('wedding-3.bottom')
     </div>
 </div>
-                </div>

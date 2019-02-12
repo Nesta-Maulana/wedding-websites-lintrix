@@ -6,7 +6,10 @@
             </div>
             <div id="couple_content" class="page_single layout_fullwidth_padding">  
                 <span id="pre_greeting">
-                    <strong class="pre_greeting">Bismillahirrahmanirrahim</strong><br>
+                    <strong class="pre_greeting">
+                        Bismillahirrahmanirrahim
+                    </strong>
+                    <br>
                     <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> <br>
                     Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan putra putri kami 	      		
                 </span>
@@ -41,5 +44,4 @@
             </div>
         </div>
     </div>  
-    </div>                    
-</div>
+</div>                    

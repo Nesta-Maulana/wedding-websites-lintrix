@@ -1,32 +1,31 @@
-
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  
-  <meta property="og:image" content="{{ asset('wedding-3/images/imagelink/13.jpg') }}"> 
-  <meta property="og:title" content="Wedding of Aninda & Primus" />
-  <meta property="og:description" content="Gedung SDELOG POLRI, 08 | 04 |2018.">
-  <meta property="og:type" content="article" />   
-  <meta property="og:url" content="anindaprimus"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link rel="shortcut icon" href="{{ asset('wedding-3/images/favicon.png') }}">
-  <link href="{{ asset('wedding-3/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
-  <link href="{{ asset('wedding-3/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-  <title>Aninda & Primus Wedding - by halalindong.com</title>
-  <link rel="stylesheet" href="{{ asset('wedding-3/css/framework7.css') }}">
-  <link rel="stylesheet" href="{{ asset('wedding-3/css/style.css') }}">
-  <link href="{{ asset('wedding-3/css/font-awesome.min.css') }}" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/swipebox.css') }}" />
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/animations.css') }}" />
-  <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/custom.css') }}" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+    <meta property="og:image" content="{{ asset('wedding-3/images/imagelink/13.jpg') }}"> 
+    <meta property="og:title" content="Wedding of Aninda & Primus" />
+    <meta property="og:description" content="Gedung SDELOG POLRI, 08 | 04 |2018.">
+    <meta property="og:type" content="article" />   
+    <meta property="og:url" content="anindaprimus"/>
+
+    <link rel="shortcut icon" href="{{ asset('wedding-3/images/favicon.png') }}">
+    <link href="{{ asset('wedding-3/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <link href="{{ asset('wedding-3/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <title>Aninda & Primus Wedding - by halalindong.com</title>
+    <link rel="stylesheet" href="{{ asset('wedding-3/css/framework7.css') }}">
+    <link rel="stylesheet" href="{{ asset('wedding-3/css/style.css') }}">
+    <link href="{{ asset('wedding-3/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/swipebox.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/animations.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ asset('wedding-3/css/custom.css') }}" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 </head>
 
 <body id="mobile_wrap">
-  <div class="statusbar-overlay"></div>
-  <div class="panel-overlay"></div>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
 <div class="panel panel-left panel-reveal">
 	<div class="view view-subnav">
         <div class="pages">
@@ -92,26 +91,16 @@
 	</div>  
 </div>
 
-<style>
-    .active{
-        visibility: "";
-    }
-    .hidden{
-        visibility: hidden;
-    }
-</style>
-
 <div class="views">
     <div class="view view-main">
         <div class="pages" id="content">
         
         @include('wedding-3.home')
-        @include('wedding-3.quotes')
+        @include('wedding-3.couple')
         @include('wedding-3.event')
         @include('wedding-3.gallery')
-        @include('wedding-3.couple')
         @include('wedding-3.map')
-        
+        @include('wedding-3.quotes')
         
 
         </div>
@@ -202,8 +191,8 @@ function pindahMenu(tujuan) {
 
 //   setInterval(function() { makeTimer(); }, 1000);
 </script>
-  <script type="text/javascript">//if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m4AsOAl%2bDG5ffILjqNGoqiZVBqv%2fMysxuzQRe7na8BzbBrzyi4cs%2bEtSkZvtYNGqW3l%2fBFx8lPBRyVkzL3TtdL1LxuC4cx1ZtCTi7SqtZ6e3oZaNkhBpw8B2nIehV8qoudrqgGZlGEPMKEjFVlaw7TGr917IS2oYE8tqNMczZa4i5xdwukFAphfdNEx6JL5eF5UsYIAa2jb5VPokTwcxN4ny%2fC7rg9pNLkdXNG4An%2fwO3coC5DK8Cf3hTiP4bovu5J7kqqybEBN7mITtBQvNKeTjfSffFGLdlSjZs8xQAQsWEW1QgTvKULE4eWVmhvf97nkW5wTIkqCctgGPC0uR47NImFmCf%2bWVpbh90RZ0%2fq6vwbTcmegr1%2fnhFX7kXRM1htyhHLPiqccSVHdtasvh%2bBwMkUvK1wQ8OWmfiIsV%2bik1NBabMxSu8YbUaYtGVsVpI4fW1OdTHuyc0jasAWLpkJj8%2bY03ocrw%2fedT53bsI30RMm4LRGnLUBQNcgMwHpwUMvdTRAE8QUnuzTrtO2GK5GkChOlcvKkuX9NXQptu77dpQ8zXzUTI0LQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
-  </script>
+<script type="text/javascript">//if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m4AsOAl%2bDG5ffILjqNGoqiZVBqv%2fMysxuzQRe7na8BzbBrzyi4cs%2bEtSkZvtYNGqW3l%2fBFx8lPBRyVkzL3TtdL1LxuC4cx1ZtCTi7SqtZ6e3oZaNkhBpw8B2nIehV8qoudrqgGZlGEPMKEjFVlaw7TGr917IS2oYE8tqNMczZa4i5xdwukFAphfdNEx6JL5eF5UsYIAa2jb5VPokTwcxN4ny%2fC7rg9pNLkdXNG4An%2fwO3coC5DK8Cf3hTiP4bovu5J7kqqybEBN7mITtBQvNKeTjfSffFGLdlSjZs8xQAQsWEW1QgTvKULE4eWVmhvf97nkW5wTIkqCctgGPC0uR47NImFmCf%2bWVpbh90RZ0%2fq6vwbTcmegr1%2fnhFX7kXRM1htyhHLPiqccSVHdtasvh%2bBwMkUvK1wQ8OWmfiIsV%2bik1NBabMxSu8YbUaYtGVsVpI4fW1OdTHuyc0jasAWLpkJj8%2bY03ocrw%2fedT53bsI30RMm4LRGnLUBQNcgMwHpwUMvdTRAE8QUnuzTrtO2GK5GkChOlcvKkuX9NXQptu77dpQ8zXzUTI0LQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
+</script>
 <script type="text/javascript">//if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH29gaO6YSkT2N2f1il320ZQM7EcDxl3ULIKATh7pD6ojH1SzgevruEwZqJHVjhqtX13rBLVhpOQsvalwAFL5JhWaQkBpso0Y4j7pSRa0dJCgXaYVjvL1L58buPlVcDWeJjpf4pK5MAr3%2fAvlZOrGKGljoBZgZGhGpyt06IbiJcWLatpkXSqOlzxmbodk9PA4IlhDbxhiv%2fMiMyKAIrOVRzcWFAXbDm8YtFRVjgIY4xQZk6xzgv4Z9qyBHIwoGwV7B%2fkTH6KXbTm%2fYxsvR%2bKstf%2fXpfaY%2fuvWKtyaD6oi%2bHHWnmN4wqAKpYWoaGjpmxsrbIgkkm%2f39amUS5Uhirs3uGNZ50GxQkSL36r7CIp%2bAhoxtIm735%2bPaxFn8LqtozEvm3cOn2eZCeu69NDBO7ipRccD8VAJ7GnV4PMUnc9Vv6wlp4j9fwTTP3Gj4m78Oe81IWdpCmaJhN7BVRZQz%2fSQifMJm5RPA%2fP9o4pxIExRswWPvXBiqjubtvmQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
 
 </html>

@@ -508,4 +508,9 @@
     padding: 1px;
 }
 
-
+.active{
+	visibility: "";
+}
+.hidden{
+	visibility: hidden ;
+}

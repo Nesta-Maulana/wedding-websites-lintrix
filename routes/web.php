@@ -24,6 +24,8 @@ Route::post('/wedding-2/send-wish','Wedding\WeddingController@store')->name('sen
 Route::get('/wedding-3','Wedding\Wedding3Controller@index')->name('index.wedding-3');
 
 Route::get('/wedding-4', 'Wedding\Wedding4Controller@index')->name('index.wedding-4');
+
+Route::get('/wedding-5', 'Wedding\Wedding5Controller@index')->name('index.wedding-5`');
 /*
 Route::get('/wedding/wish', function () 
 {

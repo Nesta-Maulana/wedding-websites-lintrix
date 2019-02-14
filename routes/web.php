@@ -24,6 +24,16 @@ Route::post('/wedding-2/send-wish','Wedding\WeddingController@store')->name('sen
 Route::get('/wedding-3','Wedding\Wedding3Controller@index')->name('index.wedding-3');
 
 Route::get('/wedding-4', 'Wedding\Wedding4Controller@index')->name('index.wedding-4');
+
+Route::get('/wedding-5', 'Wedding\Wedding5Controller@index')->name('index.wedding-5`');
+
+Route::get('/wedding-6', 'Wedding\Wedding6Controller@index')->name('index.wedding-6');
+
+Route::get('/wedding-7', 'Wedding\Wedding7Controller@index')->name('index.wedding-7');
+
+Route::get('/wedding-8', 'Wedding\Wedding8Controller@index')->name('index.wedding-8');
+
+Route::get('/wedding-9', 'Wedding\Wedding9Controller@index')->name('index.wedding-9');
 /*
 Route::get('/wedding/wish', function () 
 {

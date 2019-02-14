@@ -25,5 +25,5 @@
             @include('wedding-5.bottom')
         </div>
     </div>
-</div>
+</div> 
       

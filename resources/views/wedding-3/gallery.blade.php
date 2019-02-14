@@ -27,6 +27,6 @@
                 <img src="{{ asset('wedding-3/images/headers/bottom/11-3.png') }}" alt="" width="50%" >
             </div>
         </div>
-        @include('wedding-3.bottom')
+        @include('wedding-6.bottom')
     </div>
 </div>

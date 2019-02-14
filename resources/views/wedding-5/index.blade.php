@@ -101,8 +101,8 @@
                 @include('wedding-5.map')
                 @include('wedding-5.quotes')
                 @include('wedding-5.says')
-                @include('wedding-5.gallery')
                 @include('wedding-5.video')
+                @include('wedding-5.gallery')
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
 <div class="music-box">
     <button class="music-box-toggle-btn">
         <audio id='song' loop>
-          <source src="http://wd.halalindong.com/assets/templates/mobile/music/andra_love_can_save_it_all.mp3">
+          <source src="{{ asset('wedding-5/music/andra_love_can_save_it_all.mp3') }}">
         </audio>  
 
         <button type="button" class="music" id="mute-sound" >

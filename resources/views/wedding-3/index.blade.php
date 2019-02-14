@@ -86,7 +86,7 @@
                             </ul>
                         </nav>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>  
     </div>
@@ -142,13 +142,13 @@
             document.getElementById('song').pause();
         });
     </script> --}}
-  <script type="text/javascript" src="{{ asset('wedding-3/js/jquery.validate.min.js') }}" ></script>
-  <script type="text/javascript" src="{{ asset('wedding-3/js/framework7.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('wedding-3/js/jquery.swipebox.js') }}"></script> 
-  <script type="text/javascript" src="{{ asset('wedding-3/js/jquery.fitvids.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('wedding-3/js/email.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('wedding-3/js/audio.min.js') }}"></script>
-  <script type="text/javascript" src="{{ asset('wedding-3/js/my-app.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/jquery.validate.min.js') }}" ></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/framework7.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/jquery.swipebox.js') }}"></script> 
+<script type="text/javascript" src="{{ asset('wedding-3/js/jquery.fitvids.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/email.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/audio.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-3/js/my-app.js') }}"></script>
 
 <script>
 function pindahMenu(tujuan) {

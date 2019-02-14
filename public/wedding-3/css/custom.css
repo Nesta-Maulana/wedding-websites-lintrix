@@ -4,116 +4,116 @@
     padding-top: 0px;
 }
 @font-face{
-    src: url('../fonts/greatvibes.ttf');
+    src: url('../../fonts/greatvibes.ttf');
     font-family: greatvibes;
 }
   
       
 @font-face{
-    src: url('../fonts/autumn.ttf');
+    src: url('../../fonts/autumn.ttf');
     font-family: autumn;
 }
       
 @font-face{
-    src: url('../fonts/dosis.ttf');
+    src: url('../../fonts/dosis.ttf');
     font-family: dosis;
 }
      
 @font-face{
-    src: url('../fonts/watermelon.ttf');
+    src: url('../../fonts/watermelon.ttf');
     font-family: watermelon;
 }  
       
 @font-face{
-    src: url('../fonts/neuton_regular.ttf');
+    src: url('../../fonts/neuton_regular.ttf');
     font-family: neuton_regular;
 }  
       
 @font-face{
-    src: url('../fonts/elsie_regular.otf');
+    src: url('../../fonts/elsie_regular.otf');
     font-family: elsie_regular;
 }
         
 @font-face{
-    src: url('../fonts/alexbrush_regular.ttf');
+    src: url('../../fonts/alexbrush_regular.ttf');
     font-family: alexbrush_regular;
 }
   
       
 @font-face{
-    src: url('../fonts/elsieswashcaps_regular.otf');
+    src: url('../../fonts/elsieswashcaps_regular.otf');
     font-family: elsieswashcaps_regular;
 }
   
       
 @font-face{
-    src: url('../fonts/mellony_dry_brush.ttf');
+    src: url('../../fonts/mellony_dry_brush.ttf');
     font-family: mellony_dry_brush;
 }
   
       
 @font-face{
-    src: url('../fonts/stylish_calligraphy.ttf');
+    src: url('../../fonts/stylish_calligraphy.ttf');
     font-family: stylish_calligraphy;
 }
   
       
 @font-face{
-    src: url('../fonts/playfairdisplay_regular.otf');
+    src: url('../../fonts/playfairdisplay_regular.otf');
     font-family: playfairdisplay_regular;
     }
   
       
 @font-face{
-    src: url('../fonts/antipasto_regulartrial.ttf');
+    src: url('../../fonts/antipasto_regulartrial.ttf');
     font-family: antipasto_regulartrial;
 }
   
       
 @font-face{
-    src: url('../fonts/als_script_regular.ttf');
+    src: url('../../fonts/als_script_regular.ttf');
     font-family: als_script_regular;
 }
   
       
 @font-face{
-    src: url('../fonts/glass_antiqua_regular.ttf');
+    src: url('../../fonts/glass_antiqua_regular.ttf');
     font-family: glass_antiqua_regular;
 }
   
       
 @font-face{
-    src: url('../fonts/sacramento_regular.ttf');
+    src: url('../../fonts/sacramento_regular.ttf');
     font-family: sacramento_regular;
 }
   
       
 @font-face{
-    src: url('../fonts/setit.otf');
+    src: url('../../fonts/setit.otf');
     font-family: setit;
 }
   
       
 @font-face{
-    src: url('../fonts/monotype_corsiva.ttf');
+    src: url('../../fonts/monotype_corsiva.ttf');
     font-family: monotype_corsiva;
 }
   
       
 @font-face{
-    src: url('../fonts/rs.ttf');
+    src: url('../../fonts/rs.ttf');
     font-family: rs;
 }
   
       
 @font-face{
-    src: url('../fonts/aracne_light.ttf');
+    src: url('../../fonts/aracne_light.ttf');
     font-family: aracne_light;
 }
   
       
 @font-face{
-    src: url('../fonts/aracne_regular.ttf');
+    src: url('../../fonts/aracne_regular.ttf');
     font-family: aracne_regular;
 }
 .main-nav.icons_21 ul li{

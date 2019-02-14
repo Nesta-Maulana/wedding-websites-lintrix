@@ -67,14 +67,14 @@
         <div class="views">
             <div class="view view-main">
                 <div class="pages" id="content"> 
-                @include('wedding-1.home') 
-                @include('wedding-1.wish') 
-                @include('wedding-1.quotes') 
-                @include('wedding-1.event') 
-                @include('wedding-1.map') 
-                @include('wedding-1.couple') 
-                @include('wedding-1.gallery')
-            </div>
+                    @include('wedding-1.home') 
+                    @include('wedding-1.wish') 
+                    @include('wedding-1.quotes') 
+                    @include('wedding-1.event') 
+                    @include('wedding-1.map') 
+                    @include('wedding-1.couple') 
+                    @include('wedding-1.gallery')
+                </div>
                 <div class="music-box">
                     <button class="music-box-toggle-btn">
                         <audio id='song' loop>
@@ -86,6 +86,13 @@
             </div>
         </div>
         <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.validate.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/framework7.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.swipebox.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.fitvids.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/email.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/audio.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('wedding-1/js/my-app.js')}}"></script>
         <script type="text/javascript" src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
         <script>
             $('.with-caption').magnificPopup({
@@ -111,6 +118,16 @@
             });
         </script>
         <script>
+            function pindahMenu(tujuan) {
+                var active = $('#content').find('.active').attr('id');
+                var tujuan = tujuan;
+                $("#" + active).removeClass('animated flip active');
+                $("#" + active).addClass('hidden');
+                $("#" + tujuan).removeClass('hidden');
+                $("#" + tujuan).addClass('animated flip active');
+            }
+        </script>
+        <script>
             document.getElementById('mute-sound').style.display = 'none';
             document.getElementById('unmute-sound').addEventListener('click', function(event) {
                 document.getElementById('unmute-sound').style.display = 'none';
@@ -122,24 +139,6 @@
                 document.getElementById('unmute-sound').style.display = 'inline-block';
                 document.getElementById('song').pause();
             });
-        </script>
-        {{-- <script type="text/javascript" src="{{asset('wedding-1/js/jquery-1.10.1.min.js')}}"></script> --}}
-        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.validate.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/framework7.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.swipebox.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/jquery.fitvids.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/email.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/audio.min.js')}}"></script>
-        <script type="text/javascript" src="{{asset('wedding-1/js/my-app.js')}}"></script>
-        <script>
-            function pindahMenu(tujuan) {
-                var active = $('#content').find('.active').attr('id');
-                var tujuan = tujuan;
-                $("#" + active).removeClass('animated flip active');
-                $("#" + active).addClass('hidden');
-                $("#" + tujuan).removeClass('hidden');
-                $("#" + tujuan).addClass('animated flip active');
-            }
         </script>
         <script>
             function makeTimer() {

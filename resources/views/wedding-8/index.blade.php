@@ -95,115 +95,16 @@
 
 				</div>
 			</nav>
-			<header id="fh5co-header" class="fh5co-cover" role="banner"
-					data-stellar-background-ratio="0.5"
-					data-image-background-count="5"
-					data-image-background="{{ asset('wedding-8/images/galleries/gallery1.jpg')}},{{ asset('wedding-8/images/galleries/gallery2.jpg')}},{{ asset('wedding-8/images/galleries/gallery3.jpg')}},{{ asset('wedding-8/images/galleries/gallery4.jpg')}},{{ asset('wedding-8/images/galleries/gallery1.jpg')}}">
-		
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<div class="display-t">
-								<div class="display-tc animate-box" data-animate-effect="fadeIn">
-									<h2 class="header-title">We're Getting Married</h2>
-									<div class="simply-countdown simply-countdown-one"></div>
-									
-									<a href="#fh5co-started" class="btn btn-primary btn-event-rsvp anchor-style">RSVP</a>
 
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-
+			@include('wedding-8.header')
 			@include('wedding-8.couple')
+			@include('wedding-8.couple-story')
 			@include('wedding-8.gallery')
             @include('wedding-8.says')
-            @include('wedding-8.event')
+			@include('wedding-8.event')
+			@include('wedding-8.attend')
+			@include('wedding-8.footer')
 
-
-			<div id="fh5co-started" class="fh5co-bg">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2 class="rsvp-title">Are You Attending?</h2>
-							<p class="rsvp-please">Please Fill-up the form to notify you that you're attending. Thanks.</p>
-						</div>
-					</div>
-					<div class="row animate-box rsvp-form">
-						<div class="col-md-10 col-md-offset-1">
-							<form action="" method="POST" class="form-inline" id="form-rsvp">
-								<div class="col-md-4 col-sm-4">
-									<div class="form-group">
-										<label for="name" class="sr-only">Name</label>
-										<input type="name" name="name" class="form-control" id="rsvp-name" placeholder="Name" required>
-										<input type="hidden" name="ww_id" id="ww_id" value="3"/>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-4">
-									<div class="form-group">
-										<label for="email"  class="sr-only">Email</label>
-										<input type="email" name="email" class="form-control" id="rsvp-email" placeholder="Email" required>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-4">
-									<div class="form-group">
-										<!-- <label for="arrived_date"  class="sr-only">Arrived Date</label>
-										<input type="text" name="arrived_date" class="form-control datepicker" id="rsvp-arrived_date" placeholder="Arrived Date"> -->
-										<label for="number_of_guest"  class="sr-only">Number of guests attending</label>
-										<select name="number_of_guest" class="form-control" id="rsvp-number_of_guest" required oninvalid="this.setCustomValidity('Please select an item from the list.')" oninput="setCustomValidity('')">
-											<option value=""  style="color: gray;">
-												Number of guests attending
-											</option>
-											<option value="1" style="color: gray;font-weight: bold">
-												1
-											</option>
-											<option value="2"  style="color: gray;font-weight: bold">
-												2
-											</option>
-
-										</select>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-4">
-								</div>
-								<div class="col-md-4 col-sm-4">
-									<button type="submit" class="btn btn-default btn-block btn-attending anchor-style">I am Attending</button>
-								</div>
-								<div class="col-md-4 col-sm-4">
-								</div>
-							</form>
-							
-						</div>
-					</div>
-					<div class="rsvp-desc animate-box" >
-						<p class="rsvp-desc-thanks">
-							Thank you <b class="rsvp-name">asdf</b>, your RSVP has been submitted to us.
-						</p>
-						<p class="rsvp-desc-helphashtag">
-							Help us to share the moments on Instagram with #hashtag
-							<br/>
-							<a href="https://www.instagram.com/explore/tags/DISBIforever/" target="_blank">#DISBIforever</a>
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<footer id="fh5co-footer" role="contentinfo">
-				<div class="container">
-
-					<div class="row copyright">
-						<div class="col-md-12 text-center">
-							<p>
-								<small class="block">Made with <img src="{{ asset('wedding-8/images/favicon.ico')}}"/> by <a href="http://instagram.com/e.yoore" target="_blank">e.yoore</a><br> © 2018 All Rights Reserved.</small>
-							</p>
-						</div>
-					</div>
-				</div>
-			</footer>
 		</div>
 		<div class="gototop js-top">
             <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>

@@ -3,7 +3,7 @@
         <div id="pages_maincontent">
 
             <div class="page_single layout_fullwidth_padding" style="margin-top: 20px;" >
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/top/3.png" alt="" width="40%" style="text-align: center;display: block;margin: 0 auto;">
+                <img src="{{asset('wedding-5/images/headers/top/3.png')}}" alt="" width="40%" style="text-align: center;display: block;margin: 0 auto;">
             </div>          
             <div id="quotes_content" class="page_single layout_fullwidth_padding">
                 <h2 class="page_title">
@@ -24,7 +24,7 @@
             </div>
             <br>
             <div class="page_single layout_fullwidth_padding">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/3.png" alt="" width="50%" style="text-align: center;display: block;margin: 0 auto;">
+                <img src="{{asset('wedding-5/images/headers/bottom/3.png')}}" alt="" width="50%" style="text-align: center;display: block;margin: 0 auto;">
             </div>
         </div>
         @include('wedding-5.bottom')

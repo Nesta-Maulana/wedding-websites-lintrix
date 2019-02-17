@@ -5,21 +5,28 @@
                 <span id="home_text1">
                     THE INTIMATE WEDDING          
                 </span> 
-                </br></br>  
+                </br>
+                </br>  
                 <span id="wd_data">
                     <img id="component1" src="{{asset('wedding-4/images/components/14.png')}}" alt="" width="20%">
                     <span id="couple_name">
-                        Hanestya<br/> & <br/>Ricky <br/>
+                        Senja
+                        <br/> 
+                        & 
+                        <br/>
+                        Fajar 
+                        <br/>
                     </span>
                     <br/><br/></br/>  
                     <span id="party_loc">
-                        KEDIAMAN MEMPELAI WANITA<br>
-                        PONDOK PINANG - JAKARTA SELATAN            
+                        Gedung Puri Begawan
+                        <br>
+                        Bogor Timur, Bogor
                     </span> 
                     <br/>
                     <span id="party_date2">
                         <!-- <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; -->
-                        <strong>27 April 2018</strong> 
+                        <strong>27 December 2019</strong> 
                         <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
                     </span>
                 </span>

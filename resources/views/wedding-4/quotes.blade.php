@@ -2,7 +2,7 @@
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="margin: 0px;width: 100%;" >
-                <img src="{{ asset('wedding-3/images/headers/top/14.png') }}" alt="" width="100%" style="">
+                <img src="{{ asset('wedding-4/images/headers/top/13.png') }}" alt="" width="100%" style="">
             </div>
             <div id="quotes_content" class="page_single layout_fullwidth_padding"> 
                 <h2 class="page_title">Kata Mutiara</h2>
@@ -14,8 +14,9 @@
             </div>
           <br/>
             <div id="header_bottom" class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                <img src="{{ asset('wedding-3/images/headers/top/14.png') }}" alt="" width="100%" >
+                <img src="{{ asset('wedding-4/images/headers/bottom/13.png') }}" alt="" width="100%" >
             </div>      
         </div>
+        @include('wedding-4.bottom')
     </div>
 </div>

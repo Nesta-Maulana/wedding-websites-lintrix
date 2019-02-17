@@ -142,7 +142,7 @@
         </script>
         <script>
             function makeTimer() {
-                var endTime = new Date("12 December 2019 16:10:00");
+                var endTime = new Date("27 December 2019 08:00:00");
                 var endTime = (Date.parse(endTime)) / 1000;
                 var now = new Date();
                 var now = (Date.parse(now) / 1000);

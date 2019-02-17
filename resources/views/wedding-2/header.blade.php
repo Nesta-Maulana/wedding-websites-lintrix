@@ -43,9 +43,9 @@
                                     <li>
                                         <a href="#loveline" class="nav-link">loveline</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#accommodations" class="nav-link">Accommodations </a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="#events" class="nav-link">Events</a>
                                     </li> 
@@ -59,20 +59,20 @@
                                 
                                 <ul>
                                     <li>
-                                        <a href="#gallery" class="nav-link">Cycle Slider</a>
+                                        <a href="#gallery" class="nav-link">Cycle Slider <br> Only On Desktop</a>
                                     </li>
                                     <li>
                                         <a href="#filtergallery" class="nav-link">Filter Gallery</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+<!--                             <li>
                                 <a href="#giftcards" class="nav-link">Gifts</a>
-                            </li>
-                            
+                            </li> -->
+                            <!-- 
                             <li>
                                 <a href="#reservation" class="nav-link">Rsvp</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </nav>
                     <!--  Menu section End -->

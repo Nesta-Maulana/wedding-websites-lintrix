@@ -6,9 +6,9 @@
             </div>                  
             <div id="says_content" class="page_single layout_fullwidth_padding">
                 <h2 class="page_title">Ucapan Do`a</h2>
-                <h2 id="Note"></h2>
+                <h2 id="Note"></h2> 
                 <div class="contactform"> 
-                    {{ Form::open(['route'=>'send-wish.wedding-1','role'=>'form','enctype'=>'multipart/form-data']) }} 
+                    {{ Form::open(['route'=>'send-wish.wedding-3','role'=>'form','enctype'=>'multipart/form-data']) }} 
                     {{ Form::hidden('customer_id', $id, ['id'=>'customer_id']) }} {{ Form::label('nama', 'Nama :',['']) }} 
                     {{ Form::text('nama', '',["id"=>"nama","class"=>"form_input","required"=>"required"]) }} 
                     {{ Form::label('wish', 'Ucapan :',['']) }} 

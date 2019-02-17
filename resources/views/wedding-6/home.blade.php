@@ -9,19 +9,20 @@
             </div>
             <div id="home_content" class="page_single layout_fullwidth_padding">   
                 <span id="home_text1"></span> 
-                </br> </br></br> 
+                </br>
+                </br>
+                </br> 
                 <span id="wd_data">
                     <!-- <img src="http://wd.halalindong.com/assets/templates/mobile/images/front_title/8.png" alt="" width="60%" style="text-align: center;display: block;margin: 0 auto;">
-                    
                     <span style="font-family: autumn;font-size: 20px;">The Wedding</span> --> 
                     <br>
                     <span id="couple_name">
-                        PUTRI & ANDRE </br>
+                        Senja & Fajar </br>
                     </span>
                     <br>
                     <span id="party_date2">
                         <!-- <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; -->
-                        17.03.2018
+                        27.12.2019
                     </span>
                     <!--
                     </br></br>  

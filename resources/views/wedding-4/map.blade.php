@@ -14,7 +14,7 @@
                 <div class="clear"></div>
             </div>
             <div id="header_bottom" class="page_single layout_fullwidth_padding" style="width: 100%;margin: 0px;">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/13.png" alt="" width="100%" >
+                <img src="{{asset('wedding-4/images/headers/bottom/13.png')}}" alt="" width="100%" >
             </div>
         </div>
         @include('wedding-4.bottom')

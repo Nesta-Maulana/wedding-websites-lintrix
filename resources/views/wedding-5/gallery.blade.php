@@ -11,12 +11,12 @@
                         <div id="tab2p" class="tab active">
                             <ul id="photoslist" class="photo_gallery_12">
                                 @for ($i = 1; $i<=18 ; $i++) 
-                                    <li>
-                                        <a href="{{asset('images/couples/'.$i.'.jpg')}}" class="swipebox" title="Gallery">
-                                            <img src="{{asset('images/couples/'.$i.'.jpg')}}" />
-                                        </a>
-                                    </li>
-                                    @endfor
+                                <li style="width: 32.5%;padding: 1px;">
+                                    <a href="{{asset('images/couples/'.$i.'.jpg')}}" class="with-caption image-link" title="Gallery">
+                                        <img class="image-link" src="{{asset('images/couples/'.$i.'.jpg')}}" style="width:94.77px;height: 94.77px;" />
+                                    </a>
+                                </li>
+                                @endfor
                             </ul>   
                         </div>
                     </div>

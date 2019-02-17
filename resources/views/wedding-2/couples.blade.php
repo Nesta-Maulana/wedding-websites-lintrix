@@ -101,7 +101,7 @@
                                 </span>                            
                             </h1>
                             <div class="owl-carousel">
-                                @foreach ($wish as $doa)
+                                @foreach ($wish as $doa) 
                                 <div class="half-filed-box effect-02 hide11 marbot30" style="margin: 0;">
                                     <div class="clearfix">
                                         <h2 class="couple-title" style="text-align: center;">
@@ -125,20 +125,21 @@
                                 </span>                            
                             </h1>
                             <p class="lead hide11 fadeInRight-trans1" style="text-align: center;">
-                                If you received an invitation, we’d like to plan in advance.<br/> <span class="bold">Kindly reply</span>, for any question please  <span class="bold">fill the form </span>.                        
+                                Send your wishes to the bridal couple .<br/> <span class="bold">Kindly send your best wishes. Fill your name and your wishes on form below</span>.                        
                             </p>
                             {{ Form::open(['route'=>'send-wish.wedding-2','id'=>'reservation_form','role'=>'form','class'=>'reserve_form hide11 fadeInRight-trans1','enctype'=>'multipart/form-data']) }} 
                             
-                            {{ Form::hidden('customer_id', $id, ['id'=>'customer_id']) }} {{ Form::label('nama', 'Nama :',['']) }} 
+                            {{ Form::hidden('customer_id', $id, ['id'=>'customer_id']) }} 
+                            {{ Form::label('nama', 'Nama :',['']) }} 
                             <div style="width: 100%">
                                 <div class="border-box clr" style="width: 100%">
                                     {{ Form::text('nama', '',["id"=>"nama","class"=>"required","required"=>"required", "style"=>"width:100%"]) }} 
                                 </div>  
                             </div>
-                            
+                            {{ Form::label('ucapan', 'Ucapan :',['']) }}                            
                             <div class="marbot30" style="width: 100%">
                                 <div class="border-box clr" style="width: 100%">
-                                    {{ Form::textarea('wish', '',['class'=>'required','rows'=>'','cols'=>'','required'=>'required','style'=>'width:100%']) }} 
+                                    {{ Form::textarea('wish', '',['class'=>'required','rows'=>'','cols'=>'','required'=>'required','style'=>'width:100%','id'=>'ucapan']) }} 
                                 </div>  
                             </div>
                             <div>

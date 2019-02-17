@@ -41,7 +41,7 @@
                                                     </a>
                                                     <ul>				
                                                         <li><a href="#events" class="nav-link">Events</a></li>
-														<li><a href="#accommodations" class="nav-link">Accommodations </a></li> 
+														<!-- <li><a href="#accommodations" class="nav-link">Accommodations </a></li>  -->
                                                         <li><a href="#loveline" class="nav-link">loveline</a></li>
                                                         <li><a href="#bridesmaids" class="nav-link">Bridesmaids</a></li>
                                                         <li><a href="#groomsmen" class="nav-link">Groomsmen</a></li>
@@ -52,16 +52,16 @@
                                                         Gallery <i class="fa fa-angle-up right"></i><span class="sub-toggle"></span>
                                                     </a>
                                                     <ul>
-                                                        <li><a href="#filtergallery" class="nav-link">Filter Gallery</a></li>
+                                                        <li><a href="#filtergallery" class="nav-link">Filter Gallery <br> Only On Desktop</a></li>
                                                         <li><a href="#gallery" class="nav-link">Cycle Slider</a></li>
                                                     </ul>
                                                 </li>
-                                                <li>
+<!--                                                 <li>
                                                     <a href="#giftcards" class="nav-link">Gifts</a>
                                                 </li>
                                                 <li>
                                                     <a href="#reservation" class="nav-link">Rsvp</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </nav>
                                     <!--  Menu section End-->

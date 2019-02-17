@@ -2,7 +2,7 @@
 	<div class="swiper-pagination-toolbar"></div>
     <div class="swiper-wrapper">
         <div class="swiper-slide toolbar-icon">
-            <a href="" > 
+            <a onclick="pindahMenu('index" > 
                 <img src="{{ asset('images/icons/black/home.png')}}" alt="" title="" />
                 <span class="icon-title">Home</span>
             </a>
@@ -31,13 +31,13 @@
             </a>
         </div>
     
-        <div class="swiper-slide toolbar-icon">
-            <!--<a href="ucapan.php" data-popup=".popup-social" class="open-popup"> -->
+        <!-- <div class="swiper-slide toolbar-icon">
+            <a href="ucapan.php" data-popup=".popup-social" class="open-popup"> 
             <a onclick="pindahMenu('video')">
                 <img src="{{ asset('images/icons/black/video.png')}}" alt="" title="Video" />
                 <span class="icon-title">Video</span>
             </a>
-        </div>
+        </div> -->
         
         <div class="swiper-slide toolbar-icon">
             <a onclick="pindahMenu('map')">
@@ -47,7 +47,7 @@
         </div>
     
         <div class="swiper-slide toolbar-icon">
-            <a onclick="pindahMenu('')">
+            <a onclick="pindahMenu('quotes')">
                 <img src="{{ asset('images/icons/black/quotes.png')}}" alt="" title="Kata Mutiara" />
                 <span class="icon-title">Quotes</span>
             </a>

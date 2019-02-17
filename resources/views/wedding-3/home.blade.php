@@ -11,8 +11,8 @@
                 <span>
                     <br />
                     <span class="couple_name">
-                    Aninda & <br />
-                    &nbsp;&nbsp;Primus <br/>
+                    Senja & <br />
+                    &nbsp;&nbsp;Fajar <br/>
                     </span>
                 </span>
             </div>

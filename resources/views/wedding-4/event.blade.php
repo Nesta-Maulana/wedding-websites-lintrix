@@ -12,11 +12,18 @@
                             <img src="{{asset('images/icons/gold/rings.png')}}" alt="" title="" />
                         </div>
                         <div id="akad" class="feat_small_details">
-                            <h4><a href="javascript:void(0)" >AKAD NIKAH</a></h4>
+                            <h4> <a href="javascript:void(0)" >AKAD NIKAH</a></h4>
                             <a href="javascript:void(0)"> <i class="fa fa-calendar"></i> &nbsp; Sabtu, 27 Desember 2019
                                 <br> <i class="fa fa-clock-o"></i> &nbsp; Jam 08.00 WIB
                                 <br> <i class="fa fa-map-marker"></i> &nbsp; &nbsp; Gedung Puri Begawan
-                                Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. </a>
+                                <br> &nbsp; &nbsp; &nbsp; &nbsp; Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. </a>
+                        </div>
+                        <div id="akad" class="feat_small_details">
+                            <h4> <a href="javascript:void(0)"><strong>RESEPSI PERNIKAHAN</strong></a></h4>
+                            <a href="javascript:void(0)"> <i class="fa fa-calendar"></i> &nbsp; Sabtu, 27 Desember 2018
+                                <br> <i class="fa fa-clock-o"></i> &nbsp; Jam 10.30 s/d 13.00 WIB
+                                <br> <i class="fa fa-map-marker"></i> &nbsp; &nbsp; Gedung Puri Begawan
+                                <br> &nbsp; &nbsp; &nbsp; &nbsp; Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. </a>
                         </div>
                     </li>      
                 </ul>                

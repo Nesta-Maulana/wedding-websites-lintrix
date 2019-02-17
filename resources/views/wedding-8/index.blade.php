@@ -103,7 +103,7 @@
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="col-md-7 col-md-offset-2 text-center">
 							<div class="display-t">
 								<div class="display-tc animate-box" data-animate-effect="fadeIn">
 									<h2 class="header-title">We're Getting Married</h2>
@@ -128,7 +128,7 @@
 				<div class="overlay"></div>
 				<div class="container">
 					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<div class="col-md-7 col-md-offset-2 text-center fh5co-heading">
 							<h2 class="rsvp-title">Are You Attending?</h2>
 							<p class="rsvp-please">Please Fill-up the form to notify you that you're attending. Thanks.</p>
 						</div>
@@ -198,7 +198,7 @@
 					<div class="row copyright">
 						<div class="col-md-12 text-center">
 							<p>
-								<small class="block">Made with <img src="{{ asset('wedding-8/images/favicon.ico')}}"/> by <a href="http://instagram.com/e.yoore" target="_blank">e.yoore</a><br> © 2018 All Rights Reserved.</small>
+								<small class="block">Made with <img src="{{ asset('wedding-8/images/favicon.ico')}}"/> by <a href="http://instagram.com/e.yoore" target="_blank">e.yoore</a><br> © 2017 All Rights Reserved.</small>
 							</p>
 						</div>
 					</div>
@@ -244,8 +244,8 @@
 		<script src="{{ asset('wedding-8/js/app.js') }}"></script>
 
 		<script>
-		var d = new Date(new Date("30-06-2018"));
-		var d = new Date(1530385200000);
+		var d = new Date(new Date("30-06-2017"));
+		var d = new Date(1530375200000);
 		
 		// default example
 		simplyCountdown('.simply-countdown-one', {
@@ -264,13 +264,13 @@
 	</script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113158758-2"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113157757-2"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'UA-113158758-2');
+	  gtag('config', 'UA-113157757-2');
 	</script>
 	
 	<audio id="backsound" loop="loop" style="display: none" autoplay>

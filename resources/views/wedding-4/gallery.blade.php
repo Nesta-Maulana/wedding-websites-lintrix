@@ -1,4 +1,4 @@
-<div data-page="photos" class="page no-toolbar no-navbar">
+<div data-page="photos" class="page no-toolbar no-navbar hidden" id="gallery">
     <div class="page-content">
         <div id="pages_maincontent">
             <div class="page_single layout_fullwidth_padding" style="margin: 0px;width: 100%;" >
@@ -10,67 +10,14 @@
                 <div class="tabs">
                     <div id="tab2p" class="tab active">
                         <ul id="photoslist" class="photo_gallery_12">
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-1.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery2.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-2.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery3.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-3.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery4.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-4.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery5.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-5.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery6.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-6.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery7.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-7.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery8.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-8.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery9.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-9.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery10.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-10.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery2.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-11.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery3.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                                <li style="width: 48%;padding: 1px;">
-                                    <a rel="gallery-3" href="http://wd.halalindong.com/assets/templates/mobile/images/photos/16-12.jpg" title="Hanestya & Ricky Galeri" class="swipebox">
-                                        <img src="{{ asset('wedding-4/images/photos/gallery4.jpeg') }}" alt="image"/>
-                                    </a>
-                                </li>
-                            </ul>   
+                            @for ($i = 1; $i<=18 ; $i++) 
+                            <li style="width: 32.5%;padding: 1px;">
+                                <a href="{{asset('images/couples/'.$i.'.jpg')}}" class="with-caption image-link" title="Gallery">
+                                    <img class="image-link" src="{{asset('images/couples/'.$i.'.jpg')}}" style="width:94.77px;height: 94.77px;" />
+                                </a>
+                            </li>
+                            @endfor
+                        </ul>   
                         </div>
                     </div>
                 </div>

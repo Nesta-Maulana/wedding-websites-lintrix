@@ -6,7 +6,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta property="og:image" content="">
     <meta property="og:title" content="Wedding of Fajar & Senja" />
-    <meta property="og:description" content="Gedung Puri Begawan Bogor, 12 | December | 2019.">
+    <meta property="og:description" content="Gedung Puri Begawan Bogor, 27 | December | 2019.">
     <meta property="og:type" content="article" />
     <link rel="shortcut icon" href="{{asset('images/pandawalogo.jpg')}}">
     <meta property="og:url" content="" />
@@ -151,14 +151,28 @@
 <script type="text/javascript" src="{{ asset('wedding-3/js/my-app.js') }}"></script>
 
 <script>
+    var i = 0;
 function pindahMenu(tujuan) {
+    // console.log(active);
+    // var animations = ["flip","flipInY","fadeInDown","fadeInLeft"];
+    // if (i>=3) 
+    // {
+    //     i =0;
+    // }
+    // else
+    // {
+    //     i++;
+    // }
+    // var sesudah = animations[i];
+    // var $sebelum    = "flip";
     var active = $('#content').find('.active').attr('id');
-    console.log(active);
-    var tujuan = tujuan;
+    var tujuan  = tujuan;
+    console.log(tujuan)
     $("#" + active).removeClass('animated flip active');
     $("#" + active).addClass('hidden');
     $("#" + tujuan).removeClass('hidden');
     $("#" + tujuan).addClass('animated flip active');
+    $sebelum    = sesudah;
 }
 </script>
 
@@ -166,7 +180,7 @@ function pindahMenu(tujuan) {
     <script>
         function makeTimer() {
 
-          var endTime = new Date("September 27, 2018 09:00:00 PDT");     
+          var endTime = new Date("December  27, 2019 08:00:00");     
           var endTime = (Date.parse(endTime)) / 1000;
 
           var now = new Date();

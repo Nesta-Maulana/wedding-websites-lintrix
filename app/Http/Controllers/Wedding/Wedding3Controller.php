@@ -43,7 +43,7 @@ class Wedding3Controller extends Controller
         $wish->wish = $request->wish;
         $wish->customer_id = $request->customer_id;
         $wish->save();
-        return redirect()->route('index.wedding-1');
+        return redirect()->route('index.wedding-3');
     }
 
     /**

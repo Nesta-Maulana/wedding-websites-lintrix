@@ -32,14 +32,14 @@
             </a>
         </div>
     
-        <div class="swiper-slide toolbar-icon">
-            <!--<a href="ucapan.php" data-popup=".popup-social" class="open-popup"> -->
+    <!--     <div class="swiper-slide toolbar-icon">
+            <a href="ucapan.php" data-popup=".popup-social" class="open-popup"> 
             <a onclick="pindahMenu('video')">
                 <img src="{{ asset('images/icons/black/video.png') }}" alt="" title="Video" />
                 <span class="icon-title">Video</span>
             </a>
         </div>
-        
+   -->      
     	<div class="swiper-slide toolbar-icon">
             <a onclick="pindahMenu('map')">
                 <img src="{{ asset('images/icons/black/map.png') }}" alt="" title="Lokasi" />

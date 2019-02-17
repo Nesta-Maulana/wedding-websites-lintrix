@@ -46,8 +46,8 @@
             
         <div class="swiper-slide toolbar-icon">
             <!--<a href="ucapan.php" data-popup=".popup-social" class="open-popup"> -->
-            <a onclick="pindahMenu('ucapan')">
-                <img src="{{ asset('wedding-3/images/icons/gold/message.png') }}" alt="" title="Ucapan Do'a" />
+            <a onclick="pindahMenu('says')">
+                <img src="{{ asset('images/icons/gold/message.png') }}" alt="" title="Ucapan Do'a" />
                 <span class="icon-title">Ucapan</span>
             </a>
         </div>

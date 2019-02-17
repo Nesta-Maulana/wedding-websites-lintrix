@@ -8,13 +8,13 @@
             <div class="row contentscroll">
                 <div class="container col-lg-12">
                     <div class="col-lg-6">
-                         <h1>
+                         <h1> 
                             <span class="heading-seperator hide11 h1-heading-effect">
                                 MAPS
                                 <span class="heading-right-seperator"></span>                                
                             </span>                            
                         </h1>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3341925229997!2d106.80621491431394!3d-6.605328716406258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dd050ce619%3A0x7e7a919216349c5f!2sPuri+Begawan%2C+Baranangsiang%2C+Bogor+Tim.%2C+Kota+Bogor%2C+Jawa+Barat%2C+Indonesia!5e0!3m2!1sid!2ssg!4v1549442676292" width="300"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3341925229997!2d106.80621491431394!3d-6.605328716406258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dd050ce619%3A0x7e7a919216349c5f!2sPuri+Begawan%2C+Baranangsiang%2C+Bogor+Tim.%2C+Kota+Bogor%2C+Jawa+Barat%2C+Indonesia!5e0!3m2!1sid!2ssg!4v1549442676292" width="100%" height="800px"></iframe>
                         
                     </div>
                     <div class="col-lg-6">
@@ -28,7 +28,8 @@
                             
                             <div class="clearfix hide11 fadeInRight-trans1">
                                 <p class="lead">
-                                    The wedding ceremony will begin at <span class="bold">8:30am on Oct 9th 2022</span> is Puri Begawan Convention Center
+                                    The Engagement will start after the ceremony around 
+                                    <span class="bold">8:00pm on December 27th 2019</span> is Gedung Puri Begawan.                        
                                 </p>
                             </div>
                             
@@ -74,7 +75,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 </div>

@@ -8,14 +8,21 @@
                     <span style="font-family: autumn;font-size: 20px;">The Wedding</span> --> 
                     <br>
                     <span id="couple_data">
-                    Putri & Andre            </span> <br> <br>
-                    Sabtu, 17 Maret 2018<br>
-                    Gedung Pewayangan Kautaman<br>
-                    TMII,  Jakarta Timur <br><br>
+                    Senja & Fajar            
+                    </span> 
+                    <br> 
+                    <br>
+                    27 Desember 2019
+                    <br>
+                    Gedung Puri Begawan
+                    <br>
+                    Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. 
+                    <br>
+                    <br>
                 </span>
             </div>
             <div class="page_single layout_fullwidth_padding">
-                <img src="http://wd.halalindong.com/assets/templates/mobile/images/headers/bottom/3.png" alt="" width="50%" style="text-align: center;display: block;margin: 0 auto;">
+                <img src="{{asset('wedding-5/images/headers/bottom/3.png')}}" alt="" width="50%" style="text-align: center;display: block;margin: 0 auto;">
             </div>            
         </div>
         @include('wedding-5.bottom')

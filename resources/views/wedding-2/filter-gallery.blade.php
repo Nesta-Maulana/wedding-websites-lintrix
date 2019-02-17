@@ -34,8 +34,10 @@
                 <!-- Portfolio Grid -->
                         <ul id="portfolio-grid" class="portfolio-grid">
                 <!-- Portfolio Item 1 -->    
+                            <?php for ($i=0; $i < 3 ; $i++) 
+                            { ?>
                             <li class="mix all couple groomsmens mix_all">
-                                 <div class="view3 third-effect3"><img src="{{asset('wedding-2/img/gallery/1.jpg')}}" alt="">
+                                <div class="view3 third-effect3"><img src="{{asset('wedding-2/img/gallery/1.jpg')}}" alt="">
                                     <div class="mask">
                                         <a href="{{asset('wedding-2/img/gallery/1.jpg')}}" title="Project description" data-rel="prettyPhoto[gallery4]" class="viewDetail lightbox info">
                                             <div class="project-overlay">
@@ -61,6 +63,8 @@
                                     </div>
                                 </div>
                             </li>
+                            <?php } 
+                            ?>
                           <!-- // Portfolio Item 2 -->
                         </ul>
                     <!-- End Portfolio Grid -->

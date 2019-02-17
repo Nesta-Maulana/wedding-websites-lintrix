@@ -40,6 +40,8 @@ Route::get('/wedding-7', 'Wedding\Wedding7Controller@index')->name('index.weddin
 Route::get('/wedding-8', 'Wedding\Wedding8Controller@index')->name('index.wedding-8');
 
 Route::get('/wedding-9', 'Wedding\Wedding9Controller@index')->name('index.wedding-9');
+
+Route::get('/wedding-10', 'Wedding\Wedding10Controller@index')->name('index.wedding-10');
 /*
 Route::get('/wedding/wish', function () 
 {

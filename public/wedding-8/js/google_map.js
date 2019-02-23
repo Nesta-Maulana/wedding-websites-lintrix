@@ -167,7 +167,7 @@ function init() {
     var marker = new google.maps.Marker({
         position: latlng,
         map: map,
-        icon: 'images/marker-love.png'
+        icon: 'public/images/marker-love.png'
     });
     infowindow.open(map, marker);
 

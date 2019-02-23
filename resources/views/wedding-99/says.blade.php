@@ -52,7 +52,7 @@
                 <a href="javascript:view_more();" class="button_full btyellow external submit_button" id="view_more">View more</a>
             </div>
         </div>
-        @include('wedding-7.bottom')
+        @include('wedding-99.bottom')
     </div>
 </div>
 

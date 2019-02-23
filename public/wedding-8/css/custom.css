@@ -40,6 +40,31 @@
 .one-third:nth-child(9){
     background-image: url(../images/galleries/gallery1.jpg); 
 }
+
+.one-third:nth-child(10){
+    background-image: url(../images/galleries/gallery2.jpg); 
+}
+.one-third:nth-child(11){
+    background-image: url(../images/galleries/gallery3.jpg); 
+}
+.one-third:nth-child(12){
+    background-image: url(../images/galleries/gallery4.jpg); 
+}
+.one-third:nth-child(14){
+    background-image: url(../images/galleries/gallery5.jpg); 
+}
+.one-third:nth-child(15){
+    background-image: url(../images/galleries/gallery6.jpg); 
+}
+.one-third:nth-child(16){
+    background-image: url(../images/galleries/gallery7.jpg); 
+}
+.one-third:nth-child(17){
+    background-image: url(../images/galleries/gallery8.jpg); 
+}
+.one-third:nth-child(18){
+    background-image: url(../images/galleries/gallery1.jpg); 
+}
 #fh5co-event{
     background-image:url(../images/galleries/gallery6_2.jpg);
 }

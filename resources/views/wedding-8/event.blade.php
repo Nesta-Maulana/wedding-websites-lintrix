@@ -29,10 +29,12 @@
 									</div>
 								</div>
 								<div class="col-md-12 event-map">
-									<div id="map" class="fh5co-map "></div>
+									<div id="map" class="fh5co-map">
+						                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3341925229997!2d106.80621491431394!3d-6.605328716406258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dd050ce619%3A0x7e7a919216349c5f!2sPuri+Begawan%2C+Baranangsiang%2C+Bogor+Tim.%2C+Kota+Bogor%2C+Jawa+Barat!5e0!3m2!1sid!2sid!4v1548727111265" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
 								</div>
 								<div class="col-md-12 cta animated">
-		                            <a href="#fh5co-started" class="btn btn-primary btn-event-rsvp anchor-style">RSVP</a>
+		                            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3341925229997!2d106.80621491431394!3d-6.605328716406258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5dd050ce619%3A0x7e7a919216349c5f!2sPuri+Begawan%2C+Baranangsiang%2C+Bogor+Tim.%2C+Kota+Bogor%2C+Jawa+Barat!5e0!3m2!1sid!2sid!4v1548727111265" class="btn btn-primary btn-event-rsvp anchor-style">Open In Gmaps</a>
 		                        </div>
 							</div>
 						</div>

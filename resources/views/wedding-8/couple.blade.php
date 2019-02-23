@@ -5,8 +5,8 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
             <h2>You're Invited</h2>
-            <!-- <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ </h2> -->
-            <h3>Saturday, June 30 2018 <br>Jakarta, Indonesia</h3>
+            <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ </h2>
+            <h3>Saturday, December 27 2019 <br>Bogor, Indonesia</h3>
             <!-- <p >We invited you to our greatest moment</p> -->
         </div>
     </div>
@@ -15,19 +15,19 @@
         <p class="heart text-center"><i class="icon-heart2"></i></p>
         <div class="couple-half">
             <div class="groom">
-                <img src="{{ asset('wedding-8/images/galleries/gallery1.jpg')}}" alt="groom" class="img-responsive">
+                <img src="{{ asset('images/couples/wanita/6.jpg')}}" alt="groom" class="img-responsive">
             </div>
             <div class="desc-groom">
-                <h3>Adiska</h3>
-                <p>"Strong and sassy woman on the outside, soft and loving on the inside. An avid gamer and even better partner for life." -Bimo</p>
+                <h3>Senja</h3>
+                <p>Wanita terindah yang melengkapi dipenghujung hari dan segala kisah -Fajar</p>
             </div>
         </div><div class="couple-half" id="couple-half">
             <div class="bride">
-                <img src="{{ asset('wedding-8/images/galleries/gallery2.jpg')}}" alt="groom" class="img-responsive">
+                <img src="{{ asset('images/couples/pria/6.jpg')}}" alt="groom" class="img-responsive">
             </div>
             <div class="desc-bride">
-                <h3>Bimo</h3>
-                <p>"Hard worker and always trying to do his best at anything. He's the most caring person and my biggest supporter." -Adiska</p>
+                <h3>Fajar</h3>
+                <p>Pria terhebat yang selalu mengawali harinya dengan bersujud pada Rabbnya -Senja</p>
             </div>
         </div>
     </div>

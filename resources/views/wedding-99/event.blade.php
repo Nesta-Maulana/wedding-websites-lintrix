@@ -46,7 +46,7 @@
                 </ul>               
             </div>
         </div>
-        @include('wedding-7.bottom')
+        @include('wedding-99.bottom')
     </div>
 </div>
 

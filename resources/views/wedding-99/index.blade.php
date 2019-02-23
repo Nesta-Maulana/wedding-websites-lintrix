@@ -94,14 +94,14 @@
         <div class="view view-main">
             <div class="pages" id="contentnya">
                 
-                @include('wedding-7.home')
-                @include('wedding-7.couple')
-                @include('wedding-7.event')
-                @include('wedding-7.map')
-                @include('wedding-7.quotes')
-                @include('wedding-7.says')
-                @include('wedding-7.gallery')
-                @include('wedding-7.video')
+                @include('wedding-99.home')
+                @include('wedding-99.couple')
+                @include('wedding-99.event')
+                @include('wedding-99.map')
+                @include('wedding-99.quotes')
+                @include('wedding-99.says')
+                @include('wedding-99.gallery')
+                @include('wedding-99.video')
             
             </div>
         </div>

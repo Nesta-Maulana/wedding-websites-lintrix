@@ -1058,7 +1058,7 @@ form label {
 }
 
 .simply-seconds-section {
-  display: none !important;
+  display:!important;
   
 }
 .simply-countdown > .simply-section {

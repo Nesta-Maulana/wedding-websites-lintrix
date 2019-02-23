@@ -33,18 +33,20 @@ Route::post('/wedding-5/send-wish','Wedding\WeddingController@store')->name('sen
 Route::get('/wedding-6','Wedding\Wedding6Controller@index')->name('index.wedding-6');
 Route::post('/wedding-6/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-6');
 
-Route::get('/wedding-6', 'Wedding\Wedding6Controller@index')->name('index.wedding-6');
+Route::get('/wedding-8','Wedding\Wedding8Controller@index')->name('index.wedding-8');
+Route::post('/wedding-8/send-wish','Wedding\WeddingController@store')->name('send-wish.wedding-8');
 
-Route::get('/wedding-7', 'Wedding\Wedding7Controller@index')->name('index.wedding-7');
+// Route::get('/wedding-6', 'Wedding\Wedding6Controller@index')->name('index.wedding-6');
 
-Route::get('/wedding-8', 'Wedding\Wedding8Controller@index')->name('index.wedding-8');
+// Route::get('/wedding-7', 'Wedding\Wedding7Controller@index')->name('index.wedding-7');
+
+// Route::get('/wedding-8', 'Wedding\Wedding8Controller@index')->name('index.wedding-8');
 
 Route::get('/wedding-9', 'Wedding\Wedding9Controller@index')->name('index.wedding-9');
 
 Route::get('/wedding-10', 'Wedding\Wedding10Controller@index')->name('index.wedding-10');
-/*
-Route::get('/wedding/wish', function () 
-{
-    return view('wedding-1.wish');
-})->name('wish.wedding-1');
-*/
+
+// Route::get('/wedding', function () 
+// {
+//     return view('wedding-7.index');
+// })->name('wish.wedding-1');

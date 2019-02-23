@@ -10,9 +10,22 @@
                 <div class="display-t">
                     <div class="display-tc animate-box" data-animate-effect="fadeIn">
                         <h2 class="header-title">We're Getting Married</h2>
-                        <div class="simply-countdown simply-countdown-one"></div>
+                        <div class="simply-countdown simply-countdown-one">
+                            <div class="simply-section simply-days-section">
+                                <div id="days"></div>
+                            </div>
+                            <div class="simply-section simply-hours-section">
+                                <div id="hours"></div>
+                            </div>
+                            <div class="simply-section simply-minutes-section">
+                                <div id="minutes"></div>
+                            </div>
+                            <div class="simply-section simply-seconds-section">
+                                <div id="seconds"></div>
+                            </div>
+                        </div>
                         
-                        <a href="#fh5co-started" class="btn btn-primary btn-event-rsvp anchor-style">RSVP</a>
+                        <!-- <a href="#fh5co-started" class="btn btn-primary btn-event-rsvp anchor-style">RSVP</a> -->
 
                     </div>
                 </div>

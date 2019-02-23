@@ -6,7 +6,7 @@
                 <ul class="features_list_detailed">     
                     <li>
                         <div class="feat_small_icon">
-                            <img src="{{ asset('images/icons/black/blog.png') }}" alt="" title="" />
+                            <img src="{{ asset('wedding-6/images/icons/gold/ring.png')}}" alt="" title="" />
                         </div>
                         <div id="akad" class="feat_small_details">
                             <h4> <a href="javascript:void(0)" >AKAD NIKAH</a></h4>
@@ -15,7 +15,7 @@
                                 <br> <i class="fa fa-map-marker"></i> &nbsp; &nbsp; Gedung Puri Begawan
                                 <br> &nbsp; &nbsp; &nbsp; &nbsp; Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. </a>
                         </div>
-                    </li>
+                    </li>    
                     <li>
                         <div class="feat_small_icon">
                             <img src="{{asset('images/icons/black/dove.png')}}" alt="" title="" />
@@ -28,7 +28,10 @@
                                 <br> &nbsp; &nbsp; &nbsp; &nbsp; Baranang Siang, Bogor Timur Kota Bogor, Jawa Barat. </a>
                         </div>
                     </li>
-                </ul>
+                </ul>             
+                <p>
+                    It is an honour and pleasure for us if you can join the sacred moment to give your blessing to our beloved children
+                </p>  
             </div>
         </div>
         @include('wedding-6.bottom')

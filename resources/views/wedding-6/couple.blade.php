@@ -18,10 +18,9 @@
 		  			  	    <strong>Senja Putri Alfiah</strong>
                             Putri Pertama dari Bpk. Muhammad Maulana & Ibu Natasha Alfiah
                         </div>
-	                </div>
+                    </div>
                 </div>
-                <span id="dengan"> <strong>dengan</strong> <br></span>
-
+                <span id="dengan"> <strong>and</strong> <br></span>
                 <div class="swiper-container-team swiper-init" data-effect="slide" data-space-between="0" data-pagination=".swiper-pagination-teambigger" data-slides-per-view="1">			
                     <div class="swiper-wrapper">
                         <div id="brides" class="swiper-slide team-block">
@@ -39,5 +38,3 @@
         @include('wedding-6.bottom')
     </div>
 </div>
-
-      	
